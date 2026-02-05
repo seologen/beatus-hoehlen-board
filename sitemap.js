@@ -894,6 +894,12 @@ function downloadHtml(pageId, pageName) {
   </style>
 </head>
 <body>
+  <!-- BACK NAV -->
+  <nav style="position:sticky;top:0;z-index:9999;background:#001C24;padding:10px 20px;display:flex;align-items:center;gap:12px;box-shadow:0 2px 8px rgba(0,0,0,0.3);">
+    <button onclick="window.close()" style="background:#D4A853;color:#001C24;border:none;padding:8px 20px;border-radius:6px;font-weight:600;cursor:pointer;font-size:14px;font-family:inherit;">← Zurück zur Übersicht</button>
+    <span style="color:rgba(255,255,255,0.6);font-size:13px;font-family:'Figtree',sans-serif;">${pageName}</span>
+  </nav>
+
   <!-- SEO HEADER -->
   <div class="seo-header">
     <h1>${pageName}</h1>
