@@ -1550,7 +1550,7 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Für wie viele Personen eignet sich ein Firmenausflug in die Beatushöhlen?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Die St. Beatus-Höhlen eignen sich für Teams ab 10 bis über 100 Personen. Geführte Thementouren werden in passenden Gruppengrößen durchgeführt. Für grosse Teams organisieren wir parallele Gruppen und kombinieren Höhlentour, Gastronomie und Rahmenprogramm, damit alle auf ihre Kosten kommen.</p>
+          <p itemprop="text">Die St. Beatus-Höhlen eignen sich für Teams ab 10 bis über 100 Personen. Geführte Thementouren werden in passenden Gruppengrössen durchgeführt. Für grosse Teams organisieren wir parallele Gruppen und kombinieren Höhlentour, Gastronomie und Rahmenprogramm, damit alle auf ihre Kosten kommen.</p>
         </div>
       </details>
 
@@ -2886,7 +2886,7 @@ window.contentBundle = {
       </div>
       <div class="info-card">
         <span class="info-icon">&#128690;</span>
-        <h4 class="info-title">Fahrrad / E-Bike</h4>
+        <h4 class="info-title">Velo / E-Bike</h4>
         <p class="info-detail">Über die Thunersee-Veloroute erreichbar. E-Bike- und MTB-Stellplätze vor Ort. Sportlich und landschaftlich reizvoll.</p>
       </div>
     </div>
