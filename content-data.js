@@ -2267,7 +2267,7 @@ window.contentBundle = {
       </article>
 
       <article class="card">
-        <img src="images/gruppen-tour-schnitzel-jagd.jpg" alt="Alt: Gruppe bei der interaktiven Schnitzeljagd in der Höhle | St. Beatus-Höhlen" class="card-image">
+        <img src="images/gruppen-tour-schnitzeljagd.jpg" alt="Alt: Gruppe bei der interaktiven Schnitzeljagd in der Höhle | St. Beatus-Höhlen" class="card-image">
         <div class="card-body">
           <h3 class="card-title">Schnitzel & Jagd</h3>
           <p class="card-text">Entdecken statt nur zuhören: Bei der interaktiven Schnitzeljagd lösen Sie in Teams Rätsel und Aufgaben quer durch die Höhle. Ein Erlebnis, das Wissen, Spass und Teamgeist verbindet – für Gruppen, die es gerne aktiv mögen.</p>
@@ -4291,7 +4291,7 @@ window.contentBundle = {
       </article>
 
       <article class="card">
-        <img src="images/schulen-tour-schnitzel-jagd.jpg" alt="Alt: Schülerinnen und Schüler lösen Rätsel bei der Schnitzeljagd in der Höhle | St. Beatus-Höhlen" class="card-image">
+        <img src="images/schulen-tour-schnitzeljagd.jpg" alt="Alt: Schülerinnen und Schüler lösen Rätsel bei der Schnitzeljagd in der Höhle | St. Beatus-Höhlen" class="card-image">
         <div class="card-body">
           <h3 class="card-title">Schnitzel & Jagd</h3>
           <p class="card-text">Lernen wird zum Abenteuer: Bei der interaktiven Schnitzeljagd durch die Höhle lösen Schülerinnen und Schüler in Teams Rätsel und Aufgaben rund um Geologie, Natur und Geschichte. Eigenständig und spielerisch – mit Entdeckergeist statt Frontalunterricht.</p>
@@ -4594,15 +4594,15 @@ window.contentBundle = {
   </div>
   <div class="hero-content">
     <h1 class="hero-title headline-hero">Sonntagsbrunch<br>am Fels</h1>
-    <p class="hero-subtitle">Jeden Sonntag: Spätes Frühstück und Brunch-Buffet im Felsenrestaurant – mit Panoramablick auf den Thunersee und die Berner Alpen.</p>
+    <p class="hero-subtitle">Jeden Sonntag: Reichhaltiges Brunch-Buffet im Felsenrestaurant – mit Panoramablick auf den Thunersee und die Berner Alpen.</p>
   </div>
 </section>
 
 <!-- 2. INTRO (Storytelling) -->
 <section class="section section--light">
   <div class="container container--narrow text-center">
-    <h2 class="section-title">Spätes Frühstück am Thunersee – so beginnt ein perfekter Sonntag</h2>
-    <p class="lead-text">Sonntagmorgen, halb zehn. Sie treten auf die Terrasse des Felsenrestaurants Stein & Sein. Unter Ihnen glitzert der Thunersee, dahinter ragen Eiger, Mönch und Jungfrau in den Himmel. Auf dem Buffet duftet frischer Zopf vom Bäcker, daneben Käse und Charcuterie aus dem Berner Oberland. Sie giessen sich einen frischen Orangensaft ein, stossen mit einem Glas Sekt an – und wissen: Besser kann ein spätes Frühstück zwischen Thun und Interlaken nicht beginnen.</p>
+    <h2 class="section-title">Sonntagsbrunch am Thunersee – so beginnt ein perfekter Sonntag</h2>
+    <p class="lead-text">Sonntagmorgen, halb zehn. Sie treten auf die Terrasse des Felsenrestaurants Stein & Sein. Unter Ihnen glitzert der Thunersee, dahinter ragen Eiger, Mönch und Jungfrau in den Himmel. Auf dem Buffet duftet frischer Zopf vom Bäcker, daneben Käse und Charcuterie aus dem Berner Oberland. Sie giessen sich einen frischen Orangensaft ein, stossen mit einem Glas Prosecco an – und wissen: Besser kann ein spätes Frühstück zwischen Thun und Interlaken nicht beginnen.</p>
   </div>
 </section>
 
@@ -4650,7 +4650,7 @@ window.contentBundle = {
       <div class="card">
         <div class="card-body">
           <h3 class="card-title">Süsses & Getränke</h3>
-          <p class="card-text">Saisonale Desserts, feine Patisserie und frische Früchte. Dazu Kaffee und Tee à discrétion, frisch gepresster Orangensaft – und zum Anstossen ein Glas Sekt.</p>
+          <p class="card-text">Saisonale Desserts, feine Patisserie und frische Früchte. Dazu Kaffee und Tee à discrétion, frisch gepresster Orangensaft – und zum Anstossen ein Glas Prosecco.</p>
         </div>
       </div>
     </div>
@@ -5131,7 +5131,7 @@ window.contentBundle = {
         <p style="margin-top: 12px; color: #5A7A82; font-size: 0.875rem;">Mindestpreis CHF 980 (Erwachsene) bzw. CHF 474 (Schulen). Ab Sommer 2026 mit Flimboweg im Parkareal.</p>
       </div>
       <div class="feature-image">
-        <img src="images/thementouren-schnitzel-jagd-interaktiv.jpg" alt="Alt: Interaktive Schnitzeljagd in den St. Beatus-Höhlen | St. Beatus-Höhlen">
+        <img src="images/thementouren-schnitzeljagd-interaktiv.jpg" alt="Alt: Interaktive Schnitzeljagd in den St. Beatus-Höhlen | St. Beatus-Höhlen">
       </div>
     </div>
 
