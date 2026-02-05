@@ -2915,7 +2915,7 @@ window.contentBundle = {
   <div class="container">
     <div class="feature-content-row">
       <div class="feature-content">
-        <h2 class="section-title">Parkplatz & Parkieren</h2>
+        <h2 class="section-title">Parkplatz bei den Beatushöhlen</h2>
         <p class="lead-text">Kostenpflichtige Parkplätze stehen direkt unterhalb der Höhlen zur Verfügung -- nur wenige Gehminuten vom Eingang entfernt.</p>
 
         <div class="highlight-box" style="margin-top: 20px;">
