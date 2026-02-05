@@ -807,6 +807,7 @@ function downloadHtml(pageId, pageName) {
     .card-text { color: #3A5A62; margin-bottom: 16px; line-height: 1.5; }
     .section--dark .card-title { color: var(--color-primary-dark); }
     .section--dark .card-text { color: #3A5A62; }
+    .section--dark .card p, .section--dark .card li, .section--dark .card strong, .section--dark .card-body { color: #3A5A62; }
 
     /* Teaser Cards */
     .teaser-card { display: block; text-decoration: none; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: transform 0.2s, box-shadow 0.2s; }

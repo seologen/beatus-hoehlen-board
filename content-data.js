@@ -3218,7 +3218,7 @@ window.contentBundle = {
       <div>
         <h3 style="color: white; margin-bottom: 16px;">Nächste Krimidinner-Termine</h3>
         <div class="card" style="margin-bottom: 12px;">
-          <div class="card-body" style="display: flex; justify-content: space-between; align-items: center;">
+          <div class="card-body" style="display: flex; justify-content: space-between; align-items: center; color: #1a1a1a;">
             <div>
               <strong>Freitag, 27. Februar 2026</strong><br>
               <span style="font-size: 0.875rem;">Kulinarik am Fels «Krimi am Fels»</span>
@@ -3231,7 +3231,7 @@ window.contentBundle = {
       <div>
         <h3 style="color: white; margin-bottom: 16px;">Preise & Leistungen</h3>
         <div class="card">
-          <div class="card-body">
+          <div class="card-body" style="color: #1a1a1a;">
             <p><strong>CHF 159 pro Person</strong> (exkl. Getränke)</p>
             <p style="margin-top: 8px;">Inklusive:</p>
             <ul style="margin-top: 4px;">
