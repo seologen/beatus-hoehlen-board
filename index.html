@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Sitemap | St. Beatus-Höhlen Website Relaunch</title>
+  <meta name="description" content="Interaktive Sitemap für den Website-Relaunch von beatushoehlen.swiss">
+  <link rel="stylesheet" href="sitemap.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <h1>St. Beatus-Höhlen</h1>
+    <p>Interaktive Sitemap & Page Content</p>
+  </header>
+
+  <!-- Controls -->
+  <nav class="controls">
+    <div class="controls-inner">
+      <div class="search-box">
+        <input type="text" id="search-input" placeholder="Seite suchen...">
+      </div>
+
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-category="all">Alle</button>
+        <button class="filter-btn" data-category="startseite">Startseite</button>
+        <button class="filter-btn" data-category="hoehlen">Höhlen</button>
+        <button class="filter-btn" data-category="gastronomie">Gastronomie</button>
+        <button class="filter-btn" data-category="eventkalender">Events</button>
+        <button class="filter-btn" data-category="infocenter">Infocenter</button>
+      </div>
+
+      <div class="stats">
+        <span><strong id="visible-count">0</strong> / <span id="total-count">0</span> Seiten</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div id="sitemap-container">
+      <div class="loading">
+        <div class="loading-spinner"></div>
+        <p>Lade Content-Briefings...</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal -->
+  <div class="modal-overlay">
+    <div class="modal">
+      <div class="modal-header">
+        <h2>Seitendetails</h2>
+        <button class="modal-close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <!-- Content wird dynamisch geladen -->
+      </div>
+      <div class="modal-footer">
+        <button class="action-btn" onclick="closeModal()">Schliessen</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="content-data.js"></script>
+  <script src="sitemap.js"></script>
+</body>
+</html>

@@ -1,0 +1,1031 @@
+/* St. Beatus-Höhlen - Sitemap Styles */
+/* Design System extracted from Figma */
+
+:root {
+  /* ========================================
+     FIGMA DESIGN TOKENS
+     ======================================== */
+
+  /* Primary Brand Colors (from Figma) */
+  --figma-primary-dark: #001C24;      /* Main dark teal */
+  --figma-primary-teal: #0D4A5A;      /* Teal accent */
+  --figma-accent-gold: #D4A853;       /* CTA buttons */
+  --figma-accent-cyan: #4ECDC4;       /* Event badges */
+
+  /* Category Colors (adapted from Figma palette) */
+  --color-hoehlen: #001C24;           /* Höhlen - Primary Dark Teal */
+  --color-hoehlen-light: #E6F0F2;
+  --color-hoehlen-badge: #0D4A5A;
+
+  --color-gastronomie: #D4A853;       /* Gastronomie - Gold */
+  --color-gastronomie-light: #FDF8EE;
+  --color-gastronomie-badge: #B8923A;
+
+  --color-eventkalender: #4ECDC4;     /* Events - Cyan */
+  --color-eventkalender-light: #E8FAF9;
+  --color-eventkalender-badge: #3BADA5;
+
+  --color-infocenter: #0D4A5A;        /* Infocenter - Teal */
+  --color-infocenter-light: #E8F2F5;
+  --color-infocenter-badge: #1A6B7C;
+
+  /* UI Colors */
+  --color-bg: #F5F7F8;
+  --color-card-bg: #FFFFFF;
+  --color-text: #001C24;
+  --color-text-light: #5A7A82;
+  --color-border: #E2E8F0;
+  --color-shadow: rgba(0, 28, 36, 0.12);
+
+  /* Status Colors */
+  --status-draft: #fbbf24;
+  --status-review: #60a5fa;
+  --status-complete: #34d399;
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+}
+
+/* Reset & Base */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+/* Header */
+.header {
+  background: linear-gradient(135deg, #1a5f4a 0%, #2d9171 100%);
+  color: white;
+  padding: var(--spacing-xl) var(--spacing-lg);
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0 0 var(--spacing-sm) 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.header p {
+  margin: 0;
+  opacity: 0.9;
+  font-size: 1.1rem;
+}
+
+/* Controls */
+.controls {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--color-card-bg);
+  padding: var(--spacing-md) var(--spacing-lg);
+  border-bottom: 1px solid var(--color-border);
+  box-shadow: 0 2px 4px var(--color-shadow);
+}
+
+.controls-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+  align-items: center;
+}
+
+.search-box {
+  flex: 1;
+  min-width: 200px;
+  position: relative;
+}
+
+.search-box input {
+  width: 100%;
+  padding: var(--spacing-sm) var(--spacing-md);
+  padding-left: 2.5rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  transition: border-color var(--transition-fast);
+}
+
+.search-box input:focus {
+  outline: none;
+  border-color: var(--color-hoehlen);
+}
+
+.search-box::before {
+  content: "🔍";
+  position: absolute;
+  left: var(--spacing-sm);
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+}
+
+.filter-btn {
+  padding: var(--spacing-xs) var(--spacing-md);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all var(--transition-fast);
+}
+
+.filter-btn:hover {
+  background: var(--color-bg);
+}
+
+.filter-btn.active {
+  border-color: currentColor;
+  background: currentColor;
+  color: white;
+}
+
+.filter-btn[data-category="all"] {
+  color: var(--color-text);
+}
+.filter-btn[data-category="all"].active {
+  background: var(--color-text);
+  color: white;
+}
+
+.filter-btn[data-category="hoehlen"] {
+  color: var(--color-hoehlen);
+}
+.filter-btn[data-category="hoehlen"].active {
+  background: var(--color-hoehlen);
+  color: white;
+}
+
+.filter-btn[data-category="gastronomie"] {
+  color: var(--color-gastronomie);
+}
+.filter-btn[data-category="gastronomie"].active {
+  background: var(--color-gastronomie);
+  color: white;
+}
+
+.filter-btn[data-category="eventkalender"] {
+  color: var(--color-eventkalender);
+}
+.filter-btn[data-category="eventkalender"].active {
+  background: var(--color-eventkalender);
+  color: white;
+}
+
+.filter-btn[data-category="infocenter"] {
+  color: var(--color-infocenter);
+}
+.filter-btn[data-category="infocenter"].active {
+  background: var(--color-infocenter);
+  color: white;
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  gap: var(--spacing-lg);
+  font-size: 0.875rem;
+  color: var(--color-text-light);
+}
+
+.stats span {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+/* Main Content */
+.main-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: var(--spacing-xl) var(--spacing-lg);
+}
+
+/* Category Sections */
+.category-section {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.category-header {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+  cursor: pointer;
+  user-select: none;
+}
+
+.category-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.category-header .toggle-icon {
+  transition: transform var(--transition-normal);
+}
+
+.category-header.collapsed .toggle-icon {
+  transform: rotate(-90deg);
+}
+
+.category-badge {
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.category-section[data-category="hoehlen"] .category-header h2 { color: var(--color-hoehlen); }
+.category-section[data-category="hoehlen"] .category-badge {
+  background: var(--color-hoehlen-light);
+  color: var(--color-hoehlen);
+}
+
+.category-section[data-category="gastronomie"] .category-header h2 { color: var(--color-gastronomie); }
+.category-section[data-category="gastronomie"] .category-badge {
+  background: var(--color-gastronomie-light);
+  color: var(--color-gastronomie);
+}
+
+.category-section[data-category="eventkalender"] .category-header h2 { color: var(--color-eventkalender); }
+.category-section[data-category="eventkalender"] .category-badge {
+  background: var(--color-eventkalender-light);
+  color: var(--color-eventkalender);
+}
+
+.category-section[data-category="infocenter"] .category-header h2 { color: var(--color-infocenter); }
+.category-section[data-category="infocenter"] .category-badge {
+  background: var(--color-infocenter-light);
+  color: var(--color-infocenter);
+}
+
+/* Cards Grid */
+.cards-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.cards-grid.collapsed {
+  display: none;
+}
+
+/* Hierarchy Groups */
+.hierarchy-group {
+  margin-bottom: var(--spacing-lg);
+}
+
+.hierarchy-group-title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-text-light);
+  margin-bottom: var(--spacing-sm);
+  padding-left: var(--spacing-sm);
+}
+
+.hierarchy-hauptseite {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+}
+
+.hierarchy-unterseiten {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: var(--spacing-md);
+  padding-left: var(--spacing-xl);
+  border-left: 3px solid var(--color-border);
+  margin-left: var(--spacing-md);
+}
+
+.hierarchy-zielgruppen {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--spacing-sm);
+  padding-left: var(--spacing-xl);
+  border-left: 3px dashed var(--color-border);
+  margin-left: var(--spacing-md);
+}
+
+/* Page Card */
+.page-card {
+  background: var(--color-card-bg);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 2px 8px var(--color-shadow);
+  overflow: hidden;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.page-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px var(--color-shadow);
+}
+
+/* HAUPTSEITE - Large prominent cards */
+.page-card[data-type="hauptseite"] {
+  border-left: 6px solid;
+  box-shadow: 0 4px 12px var(--color-shadow);
+}
+
+.page-card[data-type="hauptseite"] .card-title {
+  font-size: 1.4rem;
+}
+
+.page-card[data-type="hauptseite"][data-category="hoehlen"] { border-left-color: var(--color-hoehlen); background: linear-gradient(135deg, #fff 0%, var(--color-hoehlen-light) 100%); }
+.page-card[data-type="hauptseite"][data-category="gastronomie"] { border-left-color: var(--color-gastronomie); background: linear-gradient(135deg, #fff 0%, var(--color-gastronomie-light) 100%); }
+.page-card[data-type="hauptseite"][data-category="eventkalender"] { border-left-color: var(--color-eventkalender); background: linear-gradient(135deg, #fff 0%, var(--color-eventkalender-light) 100%); }
+.page-card[data-type="hauptseite"][data-category="infocenter"] { border-left-color: var(--color-infocenter); background: linear-gradient(135deg, #fff 0%, var(--color-infocenter-light) 100%); }
+
+/* UNTERSEITE - Medium cards */
+.page-card[data-type="unterseite"] {
+  border-top: 3px solid;
+}
+
+.page-card[data-type="unterseite"] .card-title {
+  font-size: 1.1rem;
+}
+
+.page-card[data-type="unterseite"][data-category="hoehlen"] { border-top-color: var(--color-hoehlen); }
+.page-card[data-type="unterseite"][data-category="gastronomie"] { border-top-color: var(--color-gastronomie); }
+.page-card[data-type="unterseite"][data-category="eventkalender"] { border-top-color: var(--color-eventkalender); }
+.page-card[data-type="unterseite"][data-category="infocenter"] { border-top-color: var(--color-infocenter); }
+
+/* ZIELGRUPPE / ANLASS - Compact cards */
+.page-card[data-type="zielgruppe"],
+.page-card[data-type="anlass"] {
+  border-top: 2px dashed;
+  background: var(--color-bg);
+}
+
+.page-card[data-type="zielgruppe"] .card-title,
+.page-card[data-type="anlass"] .card-title {
+  font-size: 1rem;
+}
+
+.page-card[data-type="zielgruppe"] .card-header,
+.page-card[data-type="anlass"] .card-header {
+  padding: var(--spacing-sm) var(--spacing-md);
+}
+
+.page-card[data-type="zielgruppe"][data-category="hoehlen"] { border-top-color: var(--color-hoehlen-badge); }
+.page-card[data-type="zielgruppe"][data-category="gastronomie"],
+.page-card[data-type="anlass"][data-category="gastronomie"] { border-top-color: var(--color-gastronomie-badge); }
+
+/* EINZELSEITE - Same as Hauptseite */
+.page-card[data-type="einzelseite"] {
+  border-left: 6px solid;
+  box-shadow: 0 4px 12px var(--color-shadow);
+}
+
+.page-card[data-type="einzelseite"][data-category="infocenter"] { border-left-color: var(--color-infocenter); background: linear-gradient(135deg, #fff 0%, var(--color-infocenter-light) 100%); }
+
+/* Legacy border-top fallback */
+.page-card[data-category="hoehlen"]:not([data-type]) { border-top: 4px solid var(--color-hoehlen); }
+.page-card[data-category="gastronomie"]:not([data-type]) { border-top: 4px solid var(--color-gastronomie); }
+.page-card[data-category="eventkalender"]:not([data-type]) { border-top: 4px solid var(--color-eventkalender); }
+.page-card[data-category="infocenter"]:not([data-type]) { border-top: 4px solid var(--color-infocenter); }
+
+.card-header {
+  padding: var(--spacing-md);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--spacing-sm);
+}
+
+.card-badges {
+  display: flex;
+  gap: var(--spacing-xs);
+  flex-wrap: wrap;
+}
+
+.badge {
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.badge-category {
+  background: var(--color-hoehlen-light);
+  color: var(--color-hoehlen);
+}
+
+.page-card[data-category="gastronomie"] .badge-category {
+  background: var(--color-gastronomie-light);
+  color: var(--color-gastronomie);
+}
+
+.page-card[data-category="eventkalender"] .badge-category {
+  background: var(--color-eventkalender-light);
+  color: var(--color-eventkalender);
+}
+
+.page-card[data-category="infocenter"] .badge-category {
+  background: var(--color-infocenter-light);
+  color: var(--color-infocenter);
+}
+
+.badge-type {
+  background: var(--color-bg);
+  color: var(--color-text-light);
+}
+
+.badge-status {
+  background: var(--status-draft);
+  color: #78350f;
+}
+
+.badge-status.review {
+  background: var(--status-review);
+  color: #1e3a5f;
+}
+
+.badge-status.complete {
+  background: var(--status-complete);
+  color: #065f46;
+}
+
+.card-title {
+  padding: 0 var(--spacing-md);
+  margin: 0 0 var(--spacing-md) 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+/* Card Sections */
+.card-section {
+  padding: var(--spacing-md);
+  border-top: 1px solid var(--color-border);
+}
+
+.card-section-header {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--color-text-light);
+  cursor: pointer;
+}
+
+.card-section-header .icon {
+  font-size: 1rem;
+}
+
+.card-section-header .toggle {
+  margin-left: auto;
+  font-size: 0.75rem;
+  transition: transform var(--transition-fast);
+}
+
+.card-section.collapsed .toggle {
+  transform: rotate(-90deg);
+}
+
+.card-section-content {
+  font-size: 0.875rem;
+}
+
+.card-section.collapsed .card-section-content {
+  display: none;
+}
+
+/* Card Meta (URL + Keyword summary) */
+.card-meta {
+  padding: 0 var(--spacing-md);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  flex-wrap: wrap;
+  margin-bottom: var(--spacing-sm);
+}
+
+.meta-url {
+  font-family: 'Monaco', 'Menlo', monospace;
+  font-size: 0.7rem;
+  color: var(--color-text-light);
+  background: var(--color-bg);
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+}
+
+.meta-keyword {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--figma-primary-teal);
+  background: var(--color-hoehlen-light);
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+}
+
+/* Briefing Button */
+.briefing-btn {
+  background: var(--figma-primary-teal) !important;
+  color: white !important;
+  border-color: var(--figma-primary-teal) !important;
+}
+
+.briefing-btn:hover {
+  background: var(--figma-primary-dark) !important;
+  border-color: var(--figma-primary-dark) !important;
+}
+
+.content-textarea {
+  font-family: 'Monaco', 'Menlo', monospace;
+  font-size: 0.72rem;
+  line-height: 1.4;
+  min-height: 120px;
+}
+
+.keyword-list {
+  margin: 0;
+  padding-left: var(--spacing-lg);
+}
+
+.keyword-list li {
+  margin-bottom: 2px;
+}
+
+.search-intent {
+  display: inline-block;
+  padding: 2px 6px;
+  background: var(--color-bg);
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+/* URL & SEO Styles */
+.url-value {
+  font-family: 'Monaco', 'Menlo', monospace;
+  font-size: 0.8rem;
+  background: var(--color-bg);
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+}
+
+.char-count {
+  font-weight: normal;
+  font-size: 0.75rem;
+}
+
+.char-count.ok {
+  color: var(--status-complete);
+}
+
+.char-count.error {
+  color: #ef4444;
+}
+
+.char-count.missing {
+  color: var(--status-draft);
+}
+
+/* Content Preview */
+.content-preview {
+  background: var(--color-bg);
+  padding: var(--spacing-sm);
+  border-radius: var(--radius-sm);
+  font-family: 'Monaco', 'Menlo', monospace;
+  font-size: 0.75rem;
+  max-height: 150px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* Card Actions */
+.card-actions {
+  padding: var(--spacing-md);
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+}
+
+.action-btn {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 6px 10px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--color-text);
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+}
+
+.action-btn:hover {
+  background: var(--color-bg);
+  border-color: var(--color-text-light);
+}
+
+.action-btn .icon {
+  font-size: 1rem;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: all var(--transition-normal);
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal {
+  background: var(--color-card-bg);
+  border-radius: var(--radius-lg);
+  max-width: 800px;
+  max-height: 90vh;
+  width: 90%;
+  overflow: hidden;
+  transform: scale(0.9);
+  transition: transform var(--transition-normal);
+}
+
+.modal-overlay.active .modal {
+  transform: scale(1);
+}
+
+.modal-header {
+  padding: var(--spacing-lg);
+  border-bottom: 1px solid var(--color-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header h2 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.modal-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: var(--spacing-xs);
+  color: var(--color-text-light);
+}
+
+.modal-body {
+  padding: var(--spacing-lg);
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.modal-footer {
+  padding: var(--spacing-md) var(--spacing-lg);
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--spacing-sm);
+}
+
+/* Loading State */
+.loading {
+  text-align: center;
+  padding: var(--spacing-2xl);
+  color: var(--color-text-light);
+}
+
+.loading-spinner {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 3px solid var(--color-border);
+  border-top-color: var(--color-hoehlen);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* No Results */
+.no-results {
+  text-align: center;
+  padding: var(--spacing-2xl);
+  color: var(--color-text-light);
+}
+
+.no-results h3 {
+  margin: 0 0 var(--spacing-sm) 0;
+  font-size: 1.25rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .controls-inner {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search-box {
+    width: 100%;
+  }
+
+  .filter-buttons {
+    justify-content: center;
+  }
+
+  .stats {
+    justify-content: center;
+  }
+
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card-actions {
+    flex-wrap: wrap;
+  }
+
+  .action-btn {
+    flex: 1 1 calc(50% - 4px);
+    min-width: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-content {
+    padding: var(--spacing-md);
+  }
+
+  .category-header h2 {
+    font-size: 1.25rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+}
+
+/* Edit Form Styles */
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.form-row {
+  display: block;
+}
+
+.form-row--2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-md);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.form-group label {
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--color-text);
+}
+
+.form-group label small {
+  font-weight: normal;
+  color: var(--color-text-light);
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: 0.9rem;
+  font-family: inherit;
+  transition: border-color var(--transition-fast);
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: var(--color-hoehlen);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.form-group textarea#edit-content {
+  font-family: 'Monaco', 'Menlo', monospace;
+  font-size: 0.8rem;
+}
+
+.char-counter {
+  font-weight: normal;
+  font-size: 0.75rem;
+  margin-left: var(--spacing-xs);
+}
+
+.char-counter.ok {
+  color: var(--status-complete);
+}
+
+.char-counter.error {
+  color: #ef4444;
+}
+
+.modal-footer .save-btn {
+  background: var(--status-complete);
+  color: #065f46;
+  border-color: var(--status-complete);
+}
+
+.modal-footer .save-btn:hover {
+  background: #22c55e;
+}
+
+.modal-footer .export-btn {
+  background: var(--figma-accent-gold);
+  color: var(--figma-primary-dark);
+  border-color: var(--figma-accent-gold);
+}
+
+.modal-footer .export-btn:hover {
+  background: #c4983d;
+}
+
+/* Notification */
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .controls,
+  .card-actions,
+  .modal-overlay {
+    display: none !important;
+  }
+
+  .cards-grid {
+    display: block;
+  }
+
+  .page-card {
+    break-inside: avoid;
+    margin-bottom: var(--spacing-md);
+    box-shadow: none;
+    border: 1px solid var(--color-border);
+  }
+
+  .card-section.collapsed .card-section-content {
+    display: block;
+  }
+}
+
+/* Prompt Button */
+.prompt-btn {
+  background: var(--color-primary-teal, #0D4A5A) !important;
+  color: white !important;
+  border: none !important;
+  font-weight: 600;
+}
+
+.prompt-btn:hover {
+  background: var(--color-primary-dark, #001C24) !important;
+  transform: translateY(-1px);
+}
+
+/* Prompt Modal */
+.prompt-modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.prompt-hint {
+  font-size: 14px;
+  color: var(--color-text-muted, #5A7A82);
+  margin: 0;
+}
+
+.prompt-textarea {
+  width: 100%;
+  min-height: 400px;
+  padding: 16px;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  font-size: 13px;
+  line-height: 1.5;
+  border: 1px solid var(--color-border, #E2E8F0);
+  border-radius: 8px;
+  background: #f8f9fa;
+  color: #333;
+  resize: vertical;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.prompt-textarea:focus {
+  outline: none;
+  border-color: var(--color-primary-teal, #0D4A5A);
+  box-shadow: 0 0 0 3px rgba(13, 74, 90, 0.1);
+}
+
+/* Copy Button */
+.copy-btn {
+  background: var(--color-accent-gold, #D4A853) !important;
+  color: var(--color-primary-dark, #001C24) !important;
+  border: none !important;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.copy-btn:hover {
+  background: #c49843 !important;
+  transform: translateY(-1px);
+}
+
+.copy-btn.copy-success {
+  background: #22c55e !important;
+  color: white !important;
+}
