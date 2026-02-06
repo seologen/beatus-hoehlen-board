@@ -4675,7 +4675,7 @@ window.contentBundle = {
         <tr><td>Familien-Paket*</td><td style="text-align: right;"><strong>CHF 139</strong></td></tr>
       </table>
       <p style="margin-top: 8px; font-size: 0.875rem; color: rgba(255,255,255,0.6);">*Eltern + eigene Kinder (6-16 Jahre)</p>
-      <p style="margin-top: 16px;">Unser Brunch gehört zu den preiswertesten am Thunersee – mit einer Kulisse, die ihresgleichen sucht. Frühzeitig reservieren lohnt sich.</p>
+      <p style="margin-top: 16px;">Ein Brunch mit einer Kulisse, die ihresgleichen sucht. Frühzeitig reservieren lohnt sich.</p>
       <div style="margin-top: 24px;">
         <a href="/gastronomie/restaurant" class="btn-primary">Brunch reservieren</a>
       </div>
