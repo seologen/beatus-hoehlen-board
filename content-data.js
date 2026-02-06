@@ -4607,7 +4607,7 @@ window.contentBundle = {
 <section class="section section--light">
   <div class="container container--narrow text-center">
     <h2 class="section-title">Sonntagsbrunch am Thunersee – so beginnt ein perfekter Sonntag</h2>
-    <p class="lead-text">Sonntagmorgen, halb zehn. Sie treten auf die Terrasse des Felsenrestaurants Stein & Sein. Unter Ihnen glitzert der Thunersee, dahinter ragen Eiger, Mönch und Jungfrau in den Himmel. Auf dem Buffet duftet frischer Zopf vom Bäcker, daneben Käse und Charcuterie aus dem Berner Oberland. Sie giessen sich einen frischen Orangensaft ein, stossen mit einem Glas Prosecco an – und wissen: Besser kann ein spätes Frühstück zwischen Thun und Interlaken nicht beginnen.</p>
+    <p class="lead-text">Sonntagmorgen, halb zehn. Sie treten auf die Terrasse des Felsenrestaurants Stein & Sein. Unter Ihnen glitzert der Thunersee, dahinter ragen Eiger, Mönch und Jungfrau in den Himmel. Auf dem Buffet duftet frischer Zopf vom Bäcker, daneben Käse und Charcuterie aus dem Berner Oberland. Sie giessen sich einen frischen Orangensaft ein, stossen mit einem Glas Prosecco an – und wissen: Besser kann ein Brunch zwischen Thun und Interlaken nicht beginnen.</p>
   </div>
 </section>
 
@@ -4617,7 +4617,7 @@ window.contentBundle = {
     <div class="feature-content-row">
       <div class="feature-content">
         <h2 class="section-title">Brunch im Felsenrestaurant</h2>
-        <p class="lead-text">Kein Hotel-Frühstückssaal, keine Konferenzraum-Atmosphäre – unser Sonntagsbrunch findet im Restaurant Stein & Sein statt, eingebettet in die Felswand der St. Beatus-Höhlen.</p>
+        <p class="lead-text">Im Restaurant Stein & Sein wird der Sonntagsbrunch zum besonderen Erlebnis – eingebettet in die Felswand der St. Beatus-Höhlen.</p>
         <p>Naturstein und warmes Holz prägen den Innenraum. Die grossen Fenster geben den Blick frei auf den Thunersee und die Berner Alpen. Bei schönem Wetter wird die Terrasse zum schönsten Frühstücksplatz der Region – mit freier Sicht bis zum Niesen und zur Jungfrau.</p>
         <p style="margin-top: 12px;"><strong>75 Plätze innen</strong> im stimmungsvollen Felsenrestaurant, <strong>75 Plätze auf der Terrasse</strong> mit Bergpanorama. Bei Sonnenschein empfehlen wir: früh reservieren – die Terrassenplätze sind heiss begehrt.</p>
       </div>
