@@ -1949,7 +1949,7 @@ window.contentBundle = {
       <a href="/hoehlen/thementouren" class="teaser-card">
         <img src="images/flimboweg-teaser-schnitzeljagd.jpg" alt="Alt: Schnitzel & Jagd Tour für Familien | St. Beatus-Höhlen" class="teaser-image">
         <h3 class="teaser-title">Schnitzel & Jagd</h3>
-        <p class="teaser-text">Ab Sommer 2026 wird der Flimboweg Teil der beliebten Thementour.</p>
+        <p class="teaser-text">Ab Sommer wird der Flimboweg Teil der beliebten Thementour.</p>
       </a>
 
       <a href="/gastronomie/restaurant" class="teaser-card">
@@ -2000,7 +2000,7 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Kann man den Flimboweg mit dem Höhlenbesuch kombinieren?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Ja, der Flimboweg liegt im Parkareal und lässt sich ideal mit dem Höhlenrundgang, dem <a href="/hoehlen/museum-shop">Höhlenmuseum</a> und dem Spielplatz kombinieren. Ab Sommer 2026 wird der Flimboweg zudem Teil der Thementour «Schnitzel & Jagd».</p>
+          <p itemprop="text">Ja, der Flimboweg liegt im Parkareal und lässt sich ideal mit dem Höhlenrundgang, dem <a href="/hoehlen/museum-shop">Höhlenmuseum</a> und dem Spielplatz kombinieren. Ab Sommer wird der Flimboweg zudem Teil der Thementour «Schnitzel & Jagd».</p>
         </div>
       </details>
 
@@ -2058,7 +2058,7 @@ window.contentBundle = {
       <p class="section-tagline">Täglich während der Wintersaison – ohne Reservation möglich.</p>
       <p>Dampfender Käse, der Duft von Tannennadeln und der Schein warmer Lichter: Von November bis März verwandeln wir die Grotte in einen winterlichen Tannenwald. Unser Fondue klassisch stammt von der Käserei Amsoldingen – 200 g pro Person, serviert mit Brot und Essiggemüse. Dazu können Sie Kartoffeln und Kirsch bestellen (je CHF 5).</p>
       <p>Die Grotte liegt im Aussenbereich. Wir empfehlen warme Kleidung – kuschelige Wolldecken stellen wir Ihnen gerne zur Verfügung.</p>
-      <p><strong>Saison 2025/26:</strong> 24. November 2025 – 27. März 2026</p>
+      <p><strong>Saison:</strong> 24. November – 27. März</p>
       <p><strong>Öffnungszeiten:</strong> Mo–Fr 11.30–16.00 Uhr · Sa 11.30–20.00 Uhr · So 12.30–16.00 Uhr</p>
       <p><strong>Preise:</strong> Erwachsene CHF 29 · Kinder (6–16 J.) CHF 19</p>
     </div>
@@ -2093,7 +2093,7 @@ window.contentBundle = {
           <h3 class="card-title">Fondue am Fels</h3>
           <p class="card-text">
             <strong>Wann:</strong> Täglich während der Saison<br>
-            <strong>Saison:</strong> 24.11.2025 – 27.03.2026<br>
+            <strong>Saison:</strong> 24.11. – 27.03.<br>
             <strong>Öffnungszeiten:</strong> Mo–Fr 11.30–16 Uhr, Sa 11.30–20 Uhr, So 12.30–16 Uhr<br>
             <strong>Preis:</strong> CHF 29 (Erw.) / CHF 19 (Kinder)<br>
             <strong>Reservation:</strong> Empfohlen, nicht zwingend<br>
@@ -2168,7 +2168,7 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Wann hat das Fondue am Fels geöffnet?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Die Fondue-Saison dauert vom 24. November 2025 bis 27. März 2026. Öffnungszeiten: Mo–Fr 11.30–16 Uhr, Sa 11.30–20 Uhr, So 12.30–16 Uhr. Das Fondue wird täglich während der Saison serviert.</p>
+          <p itemprop="text">Die Fondue-Saison dauert vom 24. November bis 27. März. Öffnungszeiten: Mo–Fr 11.30–16 Uhr, Sa 11.30–20 Uhr, So 12.30–16 Uhr. Das Fondue wird täglich während der Saison serviert.</p>
         </div>
       </details>
 
@@ -2772,7 +2772,7 @@ window.contentBundle = {
 
     <div class="grid grid--2">
       <div class="highlight-box">
-        <h3>Wintersaison (22.11.2025 – 27.03.2026)</h3>
+        <h3>Wintersaison (22.11. – 27.03.)</h3>
         <p><strong>Höhlen</strong></p>
         <p>Mo–Fr: 10.00–17.00 Uhr (letzter Einlass 16.15)<br>
         Sa: 10.00–18.30 Uhr (letzter Einlass 17.45)<br>
@@ -2786,7 +2786,7 @@ window.contentBundle = {
       </div>
 
       <div class="highlight-box">
-        <h3>Sommersaison (28.03.2026 – 08.11.2026)</h3>
+        <h3>Sommersaison (28.03. – 08.11.)</h3>
         <p><strong>Höhlen</strong></p>
         <p>Mo–Do: 9.00–18.00 Uhr (letzter Einlass 17.15)<br>
         Fr + Sa: 9.00–21.00 Uhr (letzter Einlass 20.15)<br>
@@ -5133,7 +5133,7 @@ window.contentBundle = {
           <li>Gruppengrösse: ab 20 Personen</li>
           <li>Erwachsene CHF 49 · Schulklassen CHF 22/Schüler</li>
         </ul>
-        <p style="margin-top: 12px; color: #5A7A82; font-size: 0.875rem;">Mindestpreis CHF 980 (Erwachsene) bzw. CHF 474 (Schulen). Ab Sommer 2026 mit Flimboweg im Parkareal.</p>
+        <p style="margin-top: 12px; color: #5A7A82; font-size: 0.875rem;">Mindestpreis CHF 980 (Erwachsene) bzw. CHF 474 (Schulen). Ab Sommer mit Flimboweg im Parkareal.</p>
       </div>
       <div class="feature-image">
         <img src="images/thementouren-schnitzeljagd-interaktiv.jpg" alt="Alt: Interaktive Schnitzeljagd in den St. Beatus-Höhlen | St. Beatus-Höhlen">
@@ -5282,7 +5282,7 @@ window.contentBundle = {
       <a href="/hoehlen/flimboweg" class="teaser-card">
         <img src="images/thementouren-teaser-flimboweg.jpg" alt="Alt: Flimboweg Erlebnispfad für Kinder | St. Beatus-Höhlen" class="teaser-image">
         <h3 class="teaser-title">Flimboweg</h3>
-        <p class="teaser-text">Ab Sommer 2026 Teil der «Schnitzel & Jagd»-Tour.</p>
+        <p class="teaser-text">Ab Sommer Teil der «Schnitzel & Jagd»-Tour.</p>
       </a>
 
       <a href="/hoehlen/erlebniswelt" class="teaser-card">
