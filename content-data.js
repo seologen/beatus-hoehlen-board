@@ -2444,7 +2444,7 @@ window.contentBundle = {
     <p class="hero-subtitle">Wo die Natur den Rahmen gibt und jeder Moment so einzigartig wird wie Ihre Liebe – Ihr Hochzeitstag an den St. Beatus-Höhlen.</p>
     <div class="hero-cta">
       <a href="#kontakt" class="btn-primary">Hochzeit anfragen</a>
-      <a href="#zeremonien" class="btn-secondary">Zeremonien-Orte</a>
+      <a href="#zeremonien" class="btn-secondary">Trauungsorte</a>
     </div>
   </div>
 </section>
@@ -2461,7 +2461,7 @@ window.contentBundle = {
 <!-- 3. ZEREMONIEN-ORTE -->
 <section id="zeremonien" class="section section--dark">
   <div class="container">
-    <h2 class="section-title">Zeremonien-Orte für Ihr Ja-Wort</h2>
+    <h2 class="section-title">Orte für Ihr Ja-Wort</h2>
     <p class="section-tagline">Drei Orte – jeder für sich unvergesslich. Welcher passt zu Ihnen?</p>
     <div class="grid grid--3">
       <div class="card">
@@ -2539,7 +2539,7 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Gibt es eine Hochzeitsdokumentation mit allen Details?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Ja, wir senden Ihnen gerne unsere ausführliche Hochzeitsdokumentation zu. Sie enthält alle Informationen zu den Zeremonien-Orten, Menüoptionen, Räumlichkeiten und Ablaufmöglichkeiten. Kontaktieren Sie uns, und wir schicken Ihnen die Unterlagen per E-Mail.</p>
+          <p itemprop="text">Ja, wir senden Ihnen gerne unsere ausführliche Hochzeitsdokumentation zu. Sie enthält alle Informationen zu den Trauungsorten, Menüoptionen, Räumlichkeiten und Ablaufmöglichkeiten. Kontaktieren Sie uns, und wir schicken Ihnen die Unterlagen per E-Mail.</p>
         </div>
       </details>
 
