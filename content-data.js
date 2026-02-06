@@ -4062,7 +4062,7 @@ window.contentBundle = {
   "restaurant": `<!-- 1. HERO -->
 <section class="hero">
   <div class="hero-background">
-    <img src="images/restaurant-hero-terrasse-thunersee.jpg" alt="Alt: Restaurant Stein & Sein mit Terrasse am Thunersee | St. Beatus-Höhlen">
+    <img src="images/restaurant-hero-terrasse-thunersee.jpg" alt="Alt: Restaurant Stein & Sein mit Terrasse und Blick auf den Thunersee | St. Beatus-Höhlen">
     <div class="hero-overlay"></div>
   </div>
   <div class="hero-content">
@@ -4622,7 +4622,7 @@ window.contentBundle = {
         <p style="margin-top: 12px;"><strong>75 Plätze innen</strong> im stimmungsvollen Felsenrestaurant, <strong>75 Plätze auf der Terrasse</strong> mit Bergpanorama. Bei Sonnenschein empfehlen wir: früh reservieren – die Terrassenplätze sind heiss begehrt.</p>
       </div>
       <div class="feature-image">
-        <img src="images/sonntagsbrunch-ambiente-terrasse-panorama.jpg" alt="Alt: Terrasse Restaurant Stein & Sein mit Thunersee-Blick | St. Beatus-Höhlen">
+        <img src="images/sonntagsbrunch-ambiente-terrasse-panorama.jpg" alt="Alt: Restaurant Stein & Sein mit Terrasse und Thunersee-Blick | St. Beatus-Höhlen">
       </div>
     </div>
   </div>
