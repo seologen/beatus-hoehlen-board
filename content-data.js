@@ -34,7 +34,7 @@ window.contentBundle = {
     <div class="feature-content">
       <h2 class="section-title">Dinner mit Aussicht</h2>
       <p class="section-tagline">Wo der Tag seinen schönsten Ausklang findet.</p>
-      <p>Ob auf der Panoramaterrasse mit freiem Blick auf See und Alpen oder im stimmungsvollen Innenbereich mit Felsenatmosphäre – unser Samstagabend-Dinner ist etwas Besonderes. Die Küche setzt auf regionale Zutaten von lokalen Produzenten, die Karte wechselt mit den Jahreszeiten.</p>
+      <p>Ob auf der Terrasse mit Blick auf See und Alpen oder im stimmungsvollen Innenbereich mit Felsenatmosphäre – unser Samstagabend-Dinner ist etwas Besonderes. Die Küche setzt auf regionale Zutaten von lokalen Produzenten, die Karte wechselt mit den Jahreszeiten.</p>
       <p>75 Plätze drinnen, 75 Plätze draussen. An warmen Sommerabenden wird die Terrasse zum schönsten Restaurant am Thunersee.</p>
       <div style="margin-top: 24px;">
         <a href="/gastronomie/restaurant" class="btn-primary" style="margin-right: 12px;">Tisch reservieren</a>
@@ -3001,7 +3001,7 @@ window.contentBundle = {
         <h3>Bei jedem Wetter ein Erlebnis</h3>
         <p>In der Höhle herrschen ganzjährig konstante <strong>8-10 °C</strong> bei rund 95% Luftfeuchtigkeit.völlig unabhängig vom Wetter draussen. Die St. Beatus-Höhlen sind deshalb die perfekte Schlechtwetter-Alternative und ein kühler Rückzugsort an heissen Sommertagen.</p>
         <p style="margin-top: 12px;"><strong>Bei Regen:</strong> Der Beatus-Wasserfall wird besonders eindrücklich. Die Wassermassen schwellen an und das Naturschauspiel am Höhleneingang ist spektakulär. Regenjacke und festes Schuhwerk für den Aufstieg empfohlen.</p>
-        <p style="margin-top: 12px;"><strong>Bei Sonnenschein:</strong> Geniessen Sie die Panoramaterrasse des Restaurants mit Blick auf den Thunersee und die Berner Alpen. Kombination Höhle + Naturpark + Restaurant für einen perfekten Ausflugstag.</p>
+        <p style="margin-top: 12px;"><strong>Bei Sonnenschein:</strong> Geniessen Sie die Terrasse des Restaurants mit Panorama auf den Thunersee und die Berner Alpen. Kombination Höhle + Naturpark + Restaurant für einen perfekten Ausflugstag.</p>
       </div>
     </div>
   </div>
@@ -4062,7 +4062,7 @@ window.contentBundle = {
   "restaurant": `<!-- 1. HERO -->
 <section class="hero">
   <div class="hero-background">
-    <img src="images/restaurant-hero-terrasse-thunersee.jpg" alt="Alt: Restaurant Stein & Sein mit Panoramaterrasse am Thunersee | St. Beatus-Höhlen">
+    <img src="images/restaurant-hero-terrasse-thunersee.jpg" alt="Alt: Restaurant Stein & Sein mit Terrasse am Thunersee | St. Beatus-Höhlen">
     <div class="hero-overlay"></div>
   </div>
   <div class="hero-content">
@@ -4618,11 +4618,11 @@ window.contentBundle = {
       <div class="feature-content">
         <h2 class="section-title">Brunch im Felsenrestaurant</h2>
         <p class="lead-text">Kein Hotel-Frühstückssaal, keine Konferenzraum-Atmosphäre – unser Sonntagsbrunch findet im Restaurant Stein & Sein statt, eingebettet in die Felswand der St. Beatus-Höhlen.</p>
-        <p>Naturstein und warmes Holz prägen den Innenraum. Die grossen Fenster geben den Blick frei auf den Thunersee und die Berner Alpen. Bei schönem Wetter wird die Panoramaterrasse zum schönsten Frühstücksplatz der Region – mit freier Sicht bis zum Niesen und zur Jungfrau.</p>
+        <p>Naturstein und warmes Holz prägen den Innenraum. Die grossen Fenster geben den Blick frei auf den Thunersee und die Berner Alpen. Bei schönem Wetter wird die Terrasse zum schönsten Frühstücksplatz der Region – mit freier Sicht bis zum Niesen und zur Jungfrau.</p>
         <p style="margin-top: 12px;"><strong>75 Plätze innen</strong> im stimmungsvollen Felsenrestaurant, <strong>75 Plätze auf der Terrasse</strong> mit Bergpanorama. Bei Sonnenschein empfehlen wir: früh reservieren – die Terrassenplätze sind heiss begehrt.</p>
       </div>
       <div class="feature-image">
-        <img src="images/sonntagsbrunch-ambiente-terrasse-panorama.jpg" alt="Alt: Panoramaterrasse Restaurant Stein & Sein mit Thunersee-Blick | St. Beatus-Höhlen">
+        <img src="images/sonntagsbrunch-ambiente-terrasse-panorama.jpg" alt="Alt: Terrasse Restaurant Stein & Sein mit Thunersee-Blick | St. Beatus-Höhlen">
       </div>
     </div>
   </div>
@@ -4776,7 +4776,7 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Muss ich für den Brunch reservieren?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Ja, eine Reservation ist dringend empfohlen. Der Sonntagsbrunch ist beliebt und die Plätze sind auf 150 begrenzt – 75 im Innenbereich und 75 auf der Panoramaterrasse. Reservieren Sie online oder telefonisch unter <a href="tel:+41338411643">+41 33 841 16 43</a>. Besonders die Terrassenplätze mit Seeblick sind bei schönem Wetter schnell vergeben.</p>
+          <p itemprop="text">Ja, eine Reservation ist dringend empfohlen. Der Sonntagsbrunch ist beliebt und die Plätze sind auf 150 begrenzt – 75 im Innenbereich und 75 auf der Terrasse. Reservieren Sie online oder telefonisch unter <a href="tel:+41338411643">+41 33 841 16 43</a>. Besonders die Terrassenplätze mit Seeblick sind bei schönem Wetter schnell vergeben.</p>
         </div>
       </details>
 
