@@ -9,7 +9,7 @@ window.contentBundle = {
   </div>
   <div class="hero-content">
     <h1 class="hero-title headline-hero">Abendessen<br>am Fels</h1>
-    <p class="hero-subtitle">Jeden Samstag: regionale Küche mit Abendlicht über dem Thunersee – im Restaurant Stein & Sein.</p>
+    <p class="hero-subtitle">Samstags und in der Sommersaison auch freitags: regionale Küche mit Abendlicht über dem Thunersee – im Restaurant Stein & Sein.</p>
     <div class="hero-cta">
       <a href="/gastronomie/restaurant" class="btn-primary">Tisch reservieren</a>
       <a href="#oeffnungszeiten" class="btn-secondary">Öffnungszeiten</a>
@@ -21,7 +21,7 @@ window.contentBundle = {
 <section class="section section--light">
   <div class="container container--narrow text-center">
     <h2 class="section-title">Ihr Abendessen am Thunersee</h2>
-    <p class="lead-text">Die Sonne sinkt hinter die Berge, das Licht taucht den Thunersee in warme Farben. Auf Ihrem Teller: saisonale Spezialitäten aus der Region, sorgfältig zubereitet. Jeden Samstag servieren wir im Restaurant Stein & Sein bis 21 Uhr – ein Dinner mit Aussicht, das den Tag abrundet.</p>
+    <p class="lead-text">Die Sonne sinkt hinter die Berge, das Licht taucht den Thunersee in warme Farben. Auf Ihrem Teller: saisonale Spezialitäten aus der Region, sorgfältig zubereitet. Samstags servieren wir im Restaurant Stein & Sein bis 21 Uhr. In der Sommersaison (Ende März bis Anfang November) ist das Restaurant auch am Freitagabend geöffnet – ein Dinner mit Aussicht, das den Tag abrundet.</p>
   </div>
 </section>
 
@@ -60,7 +60,7 @@ window.contentBundle = {
     <div class="feature-content">
       <h2 class="section-title">Öffnungszeiten & Reservation</h2>
       <p class="section-tagline">Jeden Samstag wird der Abend zum Erlebnis.</p>
-      <p><strong>Abendessen:</strong> Jeden Samstag bis 21.00 Uhr</p>
+      <p><strong>Abendessen:</strong> Samstag bis 21.00 Uhr<br>In der Sommersaison: Freitag + Samstag bis 22.00 Uhr</p>
       <p><strong>Restaurant allgemein:</strong><br>Mo–Fr: 10.00–17.00 Uhr<br>Sa: 10.00–21.00 Uhr<br>So: 9.30–17.00 Uhr</p>
       <p>Eine Reservation ist empfohlen, besonders in den Sommermonaten. Für Gruppen öffnen wir auch unter der Woche abends – sprechen Sie uns an.</p>
     </div>
@@ -547,12 +547,12 @@ window.contentBundle = {
   "eventdinner": `<!-- 1. HERO -->
 <section class="hero">
   <div class="hero-background">
-    <img src="images/eventdinner-hero-gedeckter-tisch-felsengrotte.jpg" alt="Alt: Festlich gedeckter Tisch in der Felsengrotte -- Eventdinner am Thunersee | St. Beatus-Höhlen">
+    <img src="images/eventdinner-hero-gedeckter-tisch-felsengrotte.jpg" alt="Alt: Festlich gedeckter Tisch in der Felsengrotte, Eventdinner am Thunersee | St. Beatus-Höhlen">
     <div class="hero-overlay"></div>
   </div>
   <div class="hero-content">
     <h1 class="hero-title headline-hero">Eventdinner<br>am Thunersee</h1>
-    <p class="hero-subtitle">Kulinarische Erlebnisse in mystischer Höhlenkulisse -- wo regionale Küche auf eine Atmosphäre trifft, die es nur einmal gibt.</p>
+    <p class="hero-subtitle">Kulinarische Erlebnisse in mystischer Höhlenkulisse. Wo regionale Küche auf eine Atmosphäre trifft, die es nur einmal gibt.</p>
     <div class="hero-cta">
       <a href="#eventdinner-formate" class="btn-primary">Formate entdecken</a>
       <a href="#das-erlebnis" class="btn-secondary">Mehr erfahren</a>
@@ -564,8 +564,8 @@ window.contentBundle = {
 <section class="section section--light">
   <div class="container container--narrow text-center">
     <h2 class="section-title">Dinner-Events, die alle Sinne ansprechen</h2>
-    <p class="lead-text">Kerzen werfen tanzende Schatten auf jahrtausendealte Felswände. Vor Ihnen ein Teller, der die Region auf den Punkt bringt. Um Sie herum: das leise Murmeln zufriedener Gäste und der Hauch kühler Höhlenluft. Ein Eventdinner am Thunersee, wie es kein Restaurant bieten kann -- weil kein Restaurant diese Kulisse hat.</p>
-    <p style="color: #5A7A82; margin-top: 16px;">In der Felsengrotte der St. Beatus-Höhlen verwandelt unser Küchenteam regionale Produkte in kreative Menüs. Ob thematischer Gourmet-Abend, saisonales Special oder geselliger Grillabend unter freiem Himmel mit Seeblick -- unsere Eventdinner verbinden kulinarisches Erlebnis mit einer Atmosphäre, die Sie so schnell nicht vergessen.</p>
+    <p class="lead-text">Kerzen werfen tanzende Schatten auf jahrtausendealte Felswände. Vor Ihnen ein Teller, der die Region auf den Punkt bringt. Um Sie herum: das leise Murmeln zufriedener Gäste und der Hauch kühler Höhlenluft. Ein Eventdinner am Thunersee, wie es kein Restaurant bieten kann, weil kein Restaurant diese Kulisse hat.</p>
+    <p style="color: #5A7A82; margin-top: 16px;">In der Felsengrotte der St. Beatus-Höhlen verwandelt unser Küchenteam regionale Produkte in kreative Menüs. Ob thematischer Gourmet-Abend, saisonales Special oder geselliger Grillabend unter freiem Himmel mit Seeblick: Unsere Eventdinner verbinden kulinarisches Erlebnis mit einer Atmosphäre, die Sie so schnell nicht vergessen.</p>
   </div>
 </section>
 
@@ -607,11 +607,11 @@ window.contentBundle = {
       <img src="images/eventdinner-erlebnis-atmosphaere-kerzenlicht.jpg" alt="Alt: Kerzenlicht-Atmosphäre beim Dinner in der Felsengrotte | St. Beatus-Höhlen">
     </div>
     <div class="feature-content">
-      <h2 class="section-title">Das Erlebnis -- mehr als ein Dinner</h2>
+      <h2 class="section-title">Das Erlebnis: Mehr als ein Dinner</h2>
       <p class="section-tagline">Eine Location, die jeden Abend besonders macht.</p>
-      <p>Die Felsengrotte der St. Beatus-Höhlen ist keine gewöhnliche Eventlocation. Natürliche Felswände bilden die Kulisse, Kerzenlicht sorgt für Wärme, und die einzigartige Akustik gibt dem Abend seinen ganz eigenen Klang. Verbinden Sie Ihr Eventdinner mit einer Höhlentour am Nachmittag -- und machen Sie den Abend zum ganzen Erlebnistag.</p>
+      <p>Die Felsengrotte der St. Beatus-Höhlen ist keine gewöhnliche Eventlocation. Natürliche Felswände bilden die Kulisse, Kerzenlicht sorgt für Wärme, und die einzigartige Akustik gibt dem Abend seinen ganz eigenen Klang. Verbinden Sie Ihr Eventdinner mit einer Höhlentour am Nachmittag und machen Sie den Abend zum ganzen Erlebnistag.</p>
       <p style="margin-top: 12px;">Unser Küchenteam arbeitet mit regionalen Produzenten zusammen und setzt auf frische, saisonale Zutaten aus dem Berner Oberland. Dazu empfehlen wir passende Schweizer Weine. Das Ergebnis: ein Gourmet-Event, das Kulinarik und Kulisse auf eine Weise verbindet, die in der Schweiz ihresgleichen sucht.</p>
-      <p style="margin-top: 12px; color: #5A7A82;"><strong>Tipp:</strong> Die Plätze für unsere Eventdinner sind begrenzt. Frühzeitige Reservation empfohlen -- beliebte Termine sind schnell ausgebucht.</p>
+      <p style="margin-top: 12px; color: #5A7A82;"><strong>Tipp:</strong> Die Plätze für unsere Eventdinner sind begrenzt. Frühzeitige Reservation empfohlen, beliebte Termine sind schnell ausgebucht.</p>
     </div>
   </div>
 </section>
@@ -621,7 +621,7 @@ window.contentBundle = {
   <div class="container container--narrow">
     <div class="highlight-box">
       <h3>Geschenk-Tipp: Eventdinner als Gutschein</h3>
-      <p>Ein Abend in der Felsengrotte -- das perfekte Geschenk für Menschen, die das Besondere lieben. Unsere Gutscheine sind flexibel einlösbar für alle Eventdinner-Formate. Ob Geburtstag, Jubiläum oder einfach so: Verschenken Sie ein kulinarisches Erlebnis in der Schweiz, das garantiert in Erinnerung bleibt.</p>
+      <p>Ein Abend in der Felsengrotte: Das perfekte Geschenk für Menschen, die das Besondere lieben. Unsere Gutscheine sind flexibel einlösbar für alle Eventdinner-Formate. Ob Geburtstag, Jubiläum oder einfach so: Verschenken Sie ein kulinarisches Erlebnis in der Schweiz, das garantiert in Erinnerung bleibt.</p>
       <a href="/hoehlen/gutscheine" class="btn-primary" style="margin-top: 16px;">Gutschein bestellen</a>
     </div>
   </div>
@@ -637,19 +637,19 @@ window.contentBundle = {
       <a href="/events/krimidinner" class="teaser-card">
         <img src="images/eventdinner-teaser-krimidinner.jpg" alt="Alt: Krimidinner Krimi am Fels | St. Beatus-Höhlen" class="teaser-image">
         <h3 class="teaser-title">Krimidinner</h3>
-        <p class="teaser-text">Spannung, Rätsel und ein 3-Gang-Menü -- «Krimi am Fels» in Zusammenarbeit mit Escape Quest.</p>
+        <p class="teaser-text">Spannung, Rätsel und ein 3-Gang-Menü. «Krimi am Fels» in Zusammenarbeit mit Escape Quest.</p>
       </a>
 
       <a href="/hoehlen/erlebniswelt" class="teaser-card">
         <img src="images/eventdinner-teaser-hoehle.jpg" alt="Alt: Tropfsteinhöhle der St. Beatus-Höhlen | St. Beatus-Höhlen" class="teaser-image">
         <h3 class="teaser-title">Höhlenerlebnis</h3>
-        <p class="teaser-text">Kombinieren Sie Ihr Dinner mit einer Höhlentour -- 1 km Tropfsteinhöhle am Nachmittag.</p>
+        <p class="teaser-text">Kombinieren Sie Ihr Dinner mit einer Höhlentour. 1 km Tropfsteinhöhle am Nachmittag.</p>
       </a>
 
       <a href="/events" class="teaser-card">
         <img src="images/eventdinner-teaser-eventkalender.jpg" alt="Alt: Eventkalender mit allen Veranstaltungen | St. Beatus-Höhlen" class="teaser-image">
         <h3 class="teaser-title">Eventkalender</h3>
-        <p class="teaser-text">Alle Termine auf einen Blick -- von Sonntagsbrunch bis Fondue am Fels.</p>
+        <p class="teaser-text">Alle Termine auf einen Blick. Von Sonntagsbrunch bis Fondue am Fels.</p>
       </a>
 
     </div>
@@ -673,7 +673,7 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Sind Getränke im Eventdinner-Preis inbegriffen?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">In der Regel sind Getränke nicht im Preis inbegriffen und werden separat abgerechnet. Einzelne Events können ein Welcome-Getränk oder eine Weinbegleitung beinhalten -- die Details finden Sie in der jeweiligen Eventbeschreibung.</p>
+          <p itemprop="text">In der Regel sind Getränke nicht im Preis inbegriffen und werden separat abgerechnet. Einzelne Events können ein Welcome-Getränk oder eine Weinbegleitung beinhalten. Die Details finden Sie in der jeweiligen Eventbeschreibung.</p>
         </div>
       </details>
 
@@ -699,7 +699,7 @@ window.contentBundle = {
 <section class="section section--light">
   <div class="container container--narrow text-center">
     <h2 class="section-title">Ein Abend, der in Erinnerung bleibt</h2>
-    <p class="lead-text">Reservieren Sie Ihren Platz für das nächste Eventdinner am Thunersee -- und erleben Sie Kulinarik in einer Atmosphäre, die es nur in den St. Beatus-Höhlen gibt.</p>
+    <p class="lead-text">Reservieren Sie Ihren Platz für das nächste Eventdinner am Thunersee. Erleben Sie Kulinarik in einer Atmosphäre, die es nur in den St. Beatus-Höhlen gibt.</p>
     <div style="margin-top: 24px;">
       <a href="/events" class="btn-primary" style="margin-right: 12px;">Eventkalender öffnen</a>
       <a href="/hoehlen/gutscheine" class="btn-secondary">Gutschein verschenken</a>
@@ -715,7 +715,7 @@ window.contentBundle = {
   </div>
   <div class="hero-content">
     <h1 class="hero-title headline-hero">Kulinarik Events &<br>Veranstaltungen<br>am Thunersee</h1>
-    <p class="hero-subtitle">Krimidinner, Eventdinner und kulinarische Erlebnisse in mystischer Höhlenkulisse -- entdecken Sie den Eventkalender der St. Beatus-Höhlen.</p>
+    <p class="hero-subtitle">Krimidinner, Eventdinner und kulinarische Erlebnisse in mystischer Höhlenkulisse. Entdecken Sie den Eventkalender der St. Beatus-Höhlen.</p>
     <div class="hero-cta">
       <a href="#event-highlights" class="btn-primary">Events entdecken</a>
       <a href="#regelmaessige-angebote" class="btn-secondary">Regelmässige Angebote</a>
@@ -727,8 +727,8 @@ window.contentBundle = {
 <section class="section section--light">
   <div class="container container--narrow text-center">
     <h2 class="section-title">Wo Kulinarik auf Felskulisse trifft</h2>
-    <p class="lead-text">Kerzenlicht flackert über Felswände. Der Duft von geschmolzenem Raclette-Käse mischt sich mit kühler Höhlenluft. In den St. Beatus-Höhlen wird jedes Event zu etwas Besonderem -- denn keine Eventlocation am Thunersee ist wie diese. Von spannenden Krimidinnern über saisonale Gourmet-Abende bis zum gemütlichen Sonntagsbrunch: Unser Eventkalender hält das ganze Jahr Veranstaltungen bereit, die Sie so nur hier erleben.</p>
-    <p style="color: #5A7A82; margin-top: 16px;">Ob romantischer Abend zu zweit, Ausflug mit Freunden oder Geschenkidee für besondere Anlässe -- die Events an den Beatushöhlen verbinden regionale Küche mit einer Atmosphäre, die kein Restaurant der Welt bieten kann.</p>
+    <p class="lead-text">Kerzenlicht flackert über Felswände. Der Duft von geschmolzenem Raclette-Käse mischt sich mit kühler Höhlenluft. In den St. Beatus-Höhlen wird jedes Event zu etwas Besonderem, denn keine Eventlocation am Thunersee ist wie diese. Von spannenden Krimidinnern über saisonale Gourmet-Abende bis zum gemütlichen Sonntagsbrunch: Unser Eventkalender hält das ganze Jahr Veranstaltungen bereit, die Sie so nur hier erleben.</p>
+    <p style="color: #5A7A82; margin-top: 16px;">Ob romantischer Abend zu zweit, Ausflug mit Freunden oder Geschenkidee für besondere Anlässe: Die Events an den Beatushöhlen verbinden regionale Küche mit einer Atmosphäre, die kein Restaurant der Welt bieten kann.</p>
   </div>
 </section>
 
@@ -736,13 +736,13 @@ window.contentBundle = {
 <section id="event-highlights" class="section section--dark">
   <div class="container">
     <h2 class="section-title">Event-Highlights in der Höhle</h2>
-    <p class="section-tagline">Besondere Abende, die in Erinnerung bleiben -- Veranstaltungen am Thunersee, die es nur hier gibt.</p>
+    <p class="section-tagline">Besondere Abende, die in Erinnerung bleiben. Veranstaltungen am Thunersee, die es nur hier gibt.</p>
     <div class="grid grid--3">
       <div class="card">
         <img src="images/eventkalender-highlight-krimidinner.jpg" alt="Alt: Krimidinner Krimi am Fels in mystischer Höhlenatmosphäre | St. Beatus-Höhlen" class="card-image">
         <div class="card-body">
           <h3 class="card-title">Krimi am Fels</h3>
-          <p class="card-text">Rätsel lösen, Spuren verfolgen, einen cleveren Täter jagen -- und zwischendurch ein 3-Gang-Menü geniessen. Das Krimidinner in Zusammenarbeit mit Escape Quest verwandelt die Höhle in einen spektakulären Tatort.</p>
+          <p class="card-text">Rätsel lösen, Spuren verfolgen, einen cleveren Täter jagen. Zwischendurch geniessen Sie ein 3-Gang-Menü. Das Krimidinner in Zusammenarbeit mit Escape Quest verwandelt die Höhle in einen spektakulären Tatort.</p>
           <a href="/events/krimidinner" class="btn-primary">Mehr erfahren</a>
         </div>
       </div>
@@ -750,12 +750,12 @@ window.contentBundle = {
         <img src="images/eventkalender-highlight-eventdinner.jpg" alt="Alt: Eventdinner mit Gourmet-Menü in der Felsengrotte | St. Beatus-Höhlen" class="card-image">
         <div class="card-body">
           <h3 class="card-title">Eventdinner</h3>
-          <p class="card-text">Thematische Dinner-Abende in der einzigartigen Kulisse der Felsengrotte. Von saisonalen Gourmet-Events bis zu «Feuer & Flamme» am Grill -- jedes Eventdinner ist ein kulinarisches Erlebnis der besonderen Art.</p>
+          <p class="card-text">Thematische Dinner-Abende in der einzigartigen Kulisse der Felsengrotte. Von saisonalen Gourmet-Events bis zu «Feuer & Flamme» am Grill: Jedes Eventdinner ist ein kulinarisches Erlebnis der besonderen Art.</p>
           <a href="/events" class="btn-primary">Mehr erfahren</a>
         </div>
       </div>
       <div class="card">
-        <img src="images/eventkalender-highlight-kulinarik-am-fels.jpg" alt="Alt: Kulinarik am Fels -- kulinarische Events in den Beatushöhlen | St. Beatus-Höhlen" class="card-image">
+        <img src="images/eventkalender-highlight-kulinarik-am-fels.jpg" alt="Alt: Kulinarik am Fels, kulinarische Events in den Beatushöhlen | St. Beatus-Höhlen" class="card-image">
         <div class="card-body">
           <h3 class="card-title">Kulinarik am Fels</h3>
           <p class="card-text">Unsere Event-Reihe «Kulinarik am Fels» bringt wechselnde kulinarische Themen in die Höhlenkulisse. Regionale Produkte, kreative Küche und eine Atmosphäre, die jeden Gang zu einem Erlebnis macht.</p>
@@ -770,13 +770,13 @@ window.contentBundle = {
 <section id="regelmaessige-angebote" class="section section--light">
   <div class="container">
     <h2 class="section-title">Regelmässige Angebote</h2>
-    <p class="section-tagline">Wiederkehrende Genussmomente -- vom Sonntagsbrunch bis zum Fondue am Fels.</p>
+    <p class="section-tagline">Wiederkehrende Genussmomente, vom Sonntagsbrunch bis zum Fondue am Fels.</p>
     <div class="grid grid--3">
       <div class="card">
-        <img src="images/eventkalender-angebot-sonntagsbrunch.jpg" alt="Alt: Brunch am Fels -- Sonntagsbrunch mit Thunersee-Panorama | St. Beatus-Höhlen" class="card-image">
+        <img src="images/eventkalender-angebot-sonntagsbrunch.jpg" alt="Alt: Brunch am Fels, Sonntagsbrunch mit Thunersee-Panorama | St. Beatus-Höhlen" class="card-image">
         <div class="card-body">
           <h3 class="card-title">Brunch am Fels</h3>
-          <p class="card-text">Jeden Sonntag verwöhnt Sie unser Küchenteam mit einem reichhaltigen Brunch. Frische Backwaren, regionale Spezialitäten und der Blick auf den Thunersee -- so beginnt der perfekte Sonntagsausflug.</p>
+          <p class="card-text">Jeden Sonntag verwöhnt Sie unser Küchenteam mit einem reichhaltigen Brunch. Frische Backwaren, regionale Spezialitäten und der Blick auf den Thunersee: So beginnt der perfekte Sonntagsausflug.</p>
         </div>
       </div>
       <div class="card">
@@ -787,10 +787,10 @@ window.contentBundle = {
         </div>
       </div>
       <div class="card">
-        <img src="images/eventkalender-angebot-fondue-am-fels.jpg" alt="Alt: Fondue am Fels -- Käsefondue in der Winterkulisse | St. Beatus-Höhlen" class="card-image">
+        <img src="images/eventkalender-angebot-fondue-am-fels.jpg" alt="Alt: Fondue am Fels, Käsefondue in der Winterkulisse | St. Beatus-Höhlen" class="card-image">
         <div class="card-body">
           <h3 class="card-title">Fondue am Fels</h3>
-          <p class="card-text">In der kalten Jahreszeit wird die Grotte zum gemütlichen Fondue-Stübli. Traditionelles Schweizer Käsefondue vor Felswänden -- der winterliche Klassiker an den St. Beatus-Höhlen.</p>
+          <p class="card-text">In der kalten Jahreszeit wird der Aussenbereich zum gemütlichen Fondue-Stübli. Traditionelles Schweizer Käsefondue vor Felswänden: Der winterliche Klassiker an den St. Beatus-Höhlen.</p>
         </div>
       </div>
     </div>
@@ -802,7 +802,7 @@ window.contentBundle = {
   <div class="container container--narrow">
     <div class="highlight-box">
       <h3>Geschenk-Tipp: Gutschein für Events</h3>
-      <p>Sie suchen ein besonderes Geschenk? Mit einem Gutschein für die St. Beatus-Höhlen verschenken Sie nicht einfach einen Abend -- Sie verschenken ein Erlebnis. Ob Krimidinner, Eventdinner oder Sonntagsbrunch: Unsere Gutscheine sind flexibel einlösbar und sorgen garantiert für leuchtende Augen.</p>
+      <p>Sie suchen ein besonderes Geschenk? Mit einem Gutschein für die St. Beatus-Höhlen verschenken Sie nicht einfach einen Abend, sondern ein Erlebnis. Ob Krimidinner, Eventdinner oder Sonntagsbrunch: Unsere Gutscheine sind flexibel einlösbar und sorgen garantiert für leuchtende Augen.</p>
       <a href="/hoehlen/gutscheine" class="btn-primary" style="margin-top: 16px;">Gutschein bestellen</a>
     </div>
   </div>
@@ -818,7 +818,7 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Wo finde ich aktuelle Termine und Veranstaltungen am Thunersee?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Alle aktuellen Termine finden Sie auf dieser Seite und in unserem Newsletter. Wir veröffentlichen regelmässig neue Events -- von saisonalen Kulinarik-Abenden bis zu besonderen Themen-Events. Folgen Sie uns auch auf Social Media, um keine Veranstaltung zu verpassen.</p>
+          <p itemprop="text">Alle aktuellen Termine finden Sie auf dieser Seite und in unserem Newsletter. Wir veröffentlichen regelmässig neue Events, von saisonalen Kulinarik-Abenden bis zu besonderen Themen-Events. Folgen Sie uns auch auf Social Media, um keine Veranstaltung zu verpassen.</p>
         </div>
       </details>
 
@@ -851,7 +851,7 @@ window.contentBundle = {
 <section class="section section--dark">
   <div class="container container--narrow text-center">
     <h2 class="section-title">Ihr nächstes Erlebnis wartet</h2>
-    <p class="lead-text">Sichern Sie sich Ihren Platz für eines unserer Events -- denn die besten Abende am Thunersee finden unter Felswänden statt.</p>
+    <p class="lead-text">Sichern Sie sich Ihren Platz für eines unserer Events. Die besten Abende am Thunersee finden unter Felswänden statt.</p>
     <div style="margin-top: 24px;">
       <a href="/events/krimidinner" class="btn-primary" style="margin-right: 12px;">Krimidinner entdecken</a>
       <a href="/gastronomie/restaurant" class="btn-secondary">Restaurant & Menü</a>
@@ -1066,7 +1066,7 @@ window.contentBundle = {
   </div>
   <div class="hero-content">
     <h1 class="hero-title headline-hero">Familienausflug<br>in die Tropfsteinhöhle</h1>
-    <p class="hero-subtitle">Höhle, Flimboweg, Spielplatz und Museum -- ein ganzer Tag Abenteuer am Thunersee für die ganze Familie.</p>
+    <p class="hero-subtitle">Höhle, Flimboweg, Spielplatz und Museum: Ein ganzer Tag Abenteuer am Thunersee für die ganze Familie.</p>
     <div class="hero-cta">
       <a href="/hoehlen/infocenter#tickets" class="btn-primary">Tickets buchen</a>
       <a href="#erlebnisse" class="btn-secondary">Erlebnisse entdecken</a>
@@ -1078,8 +1078,8 @@ window.contentBundle = {
 <section class="section section--light">
   <div class="container container--narrow text-center">
     <h2 class="section-title">Ein Ausflug mit Kindern, der alle begeistert</h2>
-    <p class="lead-text">Staunende Kinderaugen vor gewaltigen Tropfsteinformationen. Ein Drache namens Flimbo, der durch den Erlebnisweg führt. Und am Ende des Tages: zufriedene Kinder, die auf der Rückfahrt schon fragen, wann sie wiederkommen dürfen. Die St. Beatus-Höhlen am Thunersee sind nicht einfach ein Ausflugsziel -- sie sind ein Familienausflug in der Schweiz, der bei jedem Wetter funktioniert und alle Altersgruppen begeistert.</p>
-    <p style="color: #5A7A82; margin-top: 16px;">Was die Beatushöhlen als Ausflugsziel für Familien besonders macht: Vier Erlebnisse warten unter einem Dach -- Tropfsteinhöhle, interaktiver Flimboweg, Höhlenmuseum und Spielplatz mit Drachenrutschbahn. Dazu ein Restaurant mit Kinderteller, eine Feuerstelle zum Grillieren und der eindrücklichste Wasserfall der Region. Alles in einem Ticket, alles an einem Ort -- nur 17 km von Thun entfernt, mitten im Berner Oberland.</p>
+    <p class="lead-text">Staunende Kinderaugen vor gewaltigen Tropfsteinformationen. Ein Drache namens Flimbo, der durch den Erlebnisweg führt. Und am Ende des Tages: zufriedene Kinder, die auf der Rückfahrt schon fragen, wann sie wiederkommen dürfen. Die St. Beatus-Höhlen am Thunersee sind nicht einfach ein Ausflugsziel, sondern ein Familienausflug in der Schweiz, der bei jedem Wetter funktioniert und alle Altersgruppen begeistert.</p>
+    <p style="color: #5A7A82; margin-top: 16px;">Was die Beatushöhlen als Ausflugsziel für Familien besonders macht: Vier Erlebnisse warten unter einem Dach. Tropfsteinhöhle, interaktiver Flimboweg, Höhlenmuseum und Spielplatz mit Drachenrutschbahn. Dazu ein Restaurant mit Kinderteller, eine Feuerstelle zum Grillieren und der eindrücklichste Wasserfall der Region. Alles in einem Ticket, alles an einem Ort, nur 17 km von Thun entfernt, mitten im Berner Oberland.</p>
   </div>
 </section>
 
@@ -1116,14 +1116,14 @@ window.contentBundle = {
 <section id="erlebnisse" class="section section--light">
   <div class="container">
     <h2 class="section-title">Vier Erlebnisse, ein Ticket</h2>
-    <p class="section-tagline">Was Kinder bei den St. Beatus-Höhlen erwartet -- und warum ein halber Tag kaum reicht.</p>
+    <p class="section-tagline">Was Kinder bei den St. Beatus-Höhlen erwartet. Und warum ein halber Tag kaum reicht.</p>
     <div class="grid grid--2">
 
       <article class="card">
         <img src="images/familien-erlebnis-hoehle-tropfsteine.jpg" alt="Alt: Kinder bestaunen Tropfsteine in der Höhle | St. Beatus-Höhlen" class="card-image">
         <div class="card-body">
           <h3 class="card-title">Tropfsteinhöhle</h3>
-          <p class="card-text">Ein Kilometer beleuchteter Rundgang durch Grotten, Hallen und Schluchten. Kinder staunen über meterhohe Tropfsteinformationen, lauschen dem Rauschen unterirdischer Wasserfälle und entdecken Bachläufe, die sich durch den Fels schlängeln. Der Weg ist gut ausgebaut und beschildert -- Infotafeln in Deutsch und Englisch erklären die Geologie kindgerecht. 297 Treppenstufen und 87 Meter Höhendifferenz machen die Höhlentour zum echten Abenteuer -- auch für Erwachsene.</p>
+          <p class="card-text">Ein Kilometer beleuchteter Rundgang durch Grotten, Hallen und Schluchten. Kinder staunen über meterhohe Tropfsteinformationen, lauschen dem Rauschen unterirdischer Wasserfälle und entdecken Bachläufe, die sich durch den Fels schlängeln. Der Weg ist gut ausgebaut und beschildert. Infotafeln in Deutsch und Englisch erklären die Geologie kindgerecht. 297 Treppenstufen und 87 Meter Höhendifferenz machen die Höhlentour zum echten Abenteuer, auch für Erwachsene.</p>
           <p class="card-text" style="margin-top: 8px; color: var(--color-text-muted);"><strong>Dauer:</strong> ca. 60 Minuten · <strong>Geeignet ab:</strong> ca. 5–6 Jahren</p>
         </div>
       </article>
@@ -1131,8 +1131,8 @@ window.contentBundle = {
       <article class="card">
         <img src="images/familien-erlebnis-flimboweg-stationen.jpg" alt="Alt: Kinder an einer interaktiven Station auf dem Flimboweg | St. Beatus-Höhlen" class="card-image">
         <div class="card-body">
-          <h3 class="card-title">Flimboweg -- der Erlebnispfad</h3>
-          <p class="card-text">Der interaktive Erlebnisweg im Parkareal wird von Höhlendrache Flimbo begleitet -- dem neugierigen Maskottchen der St. Beatus-Höhlen. An vier Stationen entdecken Kinder spielerisch die Welt unter der Erde: Höhlenforschung, Höhlenbewohner, Wasser und Geologie. Jede Station lädt zum Mitmachen, Anfassen und Ausprobieren ein. Der Flimboweg schlängelt sich durch das Parkareal zwischen Wasserfall und Felswänden -- ein Abenteuer im Freien, das perfekt zur Höhlentour passt.</p>
+          <h3 class="card-title">Flimboweg, der Erlebnispfad</h3>
+          <p class="card-text">Der interaktive Erlebnisweg im Parkareal wird von Höhlendrache Flimbo begleitet, dem neugierigen Maskottchen der St. Beatus-Höhlen. An vier Stationen entdecken Kinder spielerisch die Welt unter der Erde: Höhlenforschung, Höhlenbewohner, Wasser und Geologie. Jede Station lädt zum Mitmachen, Anfassen und Ausprobieren ein. Der Flimboweg schlängelt sich durch das Parkareal zwischen Wasserfall und Felswänden. Ein Abenteuer im Freien, das perfekt zur Höhlentour passt.</p>
           <p class="card-text" style="margin-top: 8px; color: var(--color-text-muted);"><strong>Dauer:</strong> ca. 60–90 Minuten · <strong>Im Eintritt inbegriffen</strong></p>
         </div>
       </article>
@@ -1150,7 +1150,7 @@ window.contentBundle = {
         <img src="images/familien-erlebnis-spielplatz-drache.jpg" alt="Alt: Spielplatz mit Drachenrutschbahn im Park | St. Beatus-Höhlen" class="card-image">
         <div class="card-body">
           <h3 class="card-title">Spielplatz & Park</h3>
-          <p class="card-text">Grosszügiger Spielplatz mit der beliebten Drachenrutschbahn und einer Holzburg zum Klettern und Entdecken. Dazu eine öffentliche Feuerstelle zur freien Verfügung -- perfekt für Würste grillieren oder ein Picknick mit der Familie. Das Parkareal zwischen Wasserfall, Brücken und Felswänden ist ein Erlebnis für sich: Hier können Kinder toben, während die Eltern den Blick auf Thunersee und Berge geniessen.</p>
+          <p class="card-text">Grosszügiger Spielplatz mit der beliebten Drachenrutschbahn und einer Holzburg zum Klettern und Entdecken. Dazu eine öffentliche Feuerstelle zur freien Verfügung, perfekt für Würste grillieren oder ein Picknick mit der Familie. Das Parkareal zwischen Wasserfall, Brücken und Felswänden ist ein Erlebnis für sich: Hier können Kinder toben, während die Eltern den Blick auf Thunersee und Berge geniessen.</p>
           <p class="card-text" style="margin-top: 8px; color: var(--color-text-muted);"><strong>Frei zugänglich</strong> · Feuerstelle mit Holz vorhanden</p>
         </div>
       </article>
@@ -1170,14 +1170,14 @@ window.contentBundle = {
         <div style="min-width: 80px; font-weight: 700; color: var(--color-accent-gold); font-size: 18px;">10:00</div>
         <div>
           <strong style="color: white;">Ankunft & Parkplatz</strong>
-          <p style="color: #C8D4D8; margin-top: 4px;">Parkplatz unterhalb der Anlage (CHF 7/Tag). Der asphaltierte Fussweg zum Eingang führt am eindrücklichen Beatus-Wasserfall vorbei -- für Kinder schon das erste Highlight. Gehzeit: ca. 8–10 Minuten.</p>
+          <p style="color: #C8D4D8; margin-top: 4px;">Parkplatz unterhalb der Anlage (CHF 7/Tag). Der asphaltierte Fussweg zum Eingang führt am eindrücklichen Beatus-Wasserfall vorbei, für Kinder schon das erste Highlight. Gehzeit: ca. 8-10 Minuten.</p>
         </div>
       </div>
       <div style="display: flex; gap: 16px; margin-bottom: 24px; align-items: flex-start;">
         <div style="min-width: 80px; font-weight: 700; color: var(--color-accent-gold); font-size: 18px;">10:15</div>
         <div>
           <strong style="color: white;">Höhlenmuseum</strong>
-          <p style="color: #C8D4D8; margin-top: 4px;">Starten Sie im Museum -- so verstehen die Kinder besser, was sie gleich in der Höhle sehen werden. Audio-Guide abholen und Fossilien bestaunen.</p>
+          <p style="color: #C8D4D8; margin-top: 4px;">Starten Sie im Museum, so verstehen die Kinder besser, was sie gleich in der Höhle sehen werden. Audio-Guide abholen und Fossilien bestaunen.</p>
         </div>
       </div>
       <div style="display: flex; gap: 16px; margin-bottom: 24px; align-items: flex-start;">
@@ -1205,7 +1205,7 @@ window.contentBundle = {
         <div style="min-width: 80px; font-weight: 700; color: var(--color-accent-gold); font-size: 18px;">15:00</div>
         <div>
           <strong style="color: white;">Glace & Rückweg</strong>
-          <p style="color: #C8D4D8; margin-top: 4px;">Ein Eis am Imbiss beim Höhleneingang, nochmal den Wasserfall bestaunen -- und mit vielen Geschichten im Gepäck nach Hause.</p>
+          <p style="color: #C8D4D8; margin-top: 4px;">Ein Eis am Imbiss beim Höhleneingang, nochmal den Wasserfall bestaunen. Mit vielen Geschichten im Gepäck geht es nach Hause.</p>
         </div>
       </div>
     </div>
@@ -1219,13 +1219,13 @@ window.contentBundle = {
       <img src="images/familien-legende-drache-beatus.jpg" alt="Alt: Drachenlegende für Kinder – Der Heilige Beatus und der Drache | St. Beatus-Höhlen">
     </div>
     <div class="feature-content">
-      <h2 class="section-title">Die Drachengeschichte -- erzählt für Kinder</h2>
+      <h2 class="section-title">Die Drachengeschichte, erzählt für Kinder</h2>
       <p class="section-tagline">Warum die Höhle so heisst, wie sie heisst.</p>
-      <p>Vor langer, langer Zeit lebte ein Drache in der Höhle am Thunersee. Er bewachte die Grotten und Schluchten und liess niemanden hinein. Bis eines Tages der mutige Mönch Beatus kam. Er vertrieb den Drachen aus der Höhle -- so erzählt es die Sage. Seitdem tragen die Höhlen seinen Namen.</p>
-      <p style="margin-top: 12px;">Für Kinder wird die Drachengeschichte auf dem Flimboweg und im Museum lebendig. Der kleine Höhlendrache Flimbo ist der freundliche Nachfahre des legendären Drachen -- und begleitet die Kinder durch die Erlebniswelt. Ob er sich manchmal noch in den Grotten versteckt? Wer genau hinschaut, findet vielleicht eine Spur ...</p>
+      <p>Vor langer, langer Zeit lebte ein Drache in der Höhle am Thunersee. Er bewachte die Grotten und Schluchten und liess niemanden hinein. Bis eines Tages der mutige Mönch Beatus kam. Er vertrieb den Drachen aus der Höhle, so erzählt es die Sage. Seitdem tragen die Höhlen seinen Namen.</p>
+      <p style="margin-top: 12px;">Für Kinder wird die Drachengeschichte auf dem Flimboweg und im Museum lebendig. Der kleine Höhlendrache Flimbo ist der freundliche Nachfahre des legendären Drachen und begleitet die Kinder durch die Erlebniswelt. Ob er sich manchmal noch in den Grotten versteckt? Wer genau hinschaut, findet vielleicht eine Spur ...</p>
       <div class="highlight-box" style="margin-top: 24px;">
         <h3>Kinderbuch-Tipp</h3>
-        <p>«Flimbo, Emma & die Geheimnisse der St. Beatus-Höhlen» erzählt die Abenteuer des Höhlendrachen. CHF 28, exklusiv im Beatus-Shop erhältlich -- die perfekte Erinnerung an den Ausflug.</p>
+        <p>«Flimbo, Emma & die Geheimnisse der St. Beatus-Höhlen» erzählt die Abenteuer des Höhlendrachen. CHF 28, exklusiv im Beatus-Shop erhältlich. Die perfekte Erinnerung an den Ausflug.</p>
       </div>
     </div>
   </div>
@@ -1238,7 +1238,7 @@ window.contentBundle = {
       <h2 class="section-title">Das perfekte Schlechtwetter-Programm</h2>
       <p class="section-tagline">In der Höhle ist jeder Tag ein guter Tag.</p>
       <p>Regen? Umso besser. In der Tropfsteinhöhle herrschen ganzjährig konstante 8–10 °C -- unabhängig vom Wetter draussen. Die Höhle, das Museum und der überdachte Imbiss bieten ein komplettes Ausflugsprogramm auch bei Regen. Und der Wasserfall auf dem Aussengelände zeigt sich bei Regenwetter von seiner spektakulärsten Seite: Wenn sich die Wassermassen tosend ins Tal stürzen, staunen Kinder und Erwachsene gleichermassen.</p>
-      <p style="margin-top: 12px;">Die St. Beatus-Höhlen gehören zu den wenigen Ausflugszielen in der Schweiz, die bei jedem Wetter funktionieren. Kein Plan B nötig -- die Höhle ist der Plan A, der bei Sonnenschein genauso begeistert wie bei Wolken.</p>
+      <p style="margin-top: 12px;">Die St. Beatus-Höhlen gehören zu den wenigen Ausflugszielen in der Schweiz, die bei jedem Wetter funktionieren. Kein Plan B nötig. Die Höhle ist der Plan A, der bei Sonnenschein genauso begeistert wie bei Wolken.</p>
     </div>
     <div class="feature-image">
       <img src="images/familien-regenwetter-wasserfall-spektakel.jpg" alt="Alt: Wasserfall bei Regenwetter – Ausflug mit Kindern bei jedem Wetter | St. Beatus-Höhlen">
@@ -1255,7 +1255,7 @@ window.contentBundle = {
     <div class="feature-content">
       <h2 class="section-title">Gut vorbereitet in die Höhle</h2>
       <p class="section-tagline">Was Sie für den Ausflug mit Kindern wissen sollten.</p>
-      <p>In der Tropfsteinhöhle herrschen ganzjährig 8–10 °C bei ca. 95 % Luftfeuchtigkeit. Die Wege und Treppenstufen können feucht sein. Warme Kleidung und rutschfestes Schuhwerk gehören auf die Packliste -- auch im Hochsommer. Für Kleinkinder empfehlen wir eine Trage.</p>
+      <p>In der Tropfsteinhöhle herrschen ganzjährig 8-10 °C bei ca. 95 % Luftfeuchtigkeit. Die Wege und Treppenstufen können feucht sein. Warme Kleidung und rutschfestes Schuhwerk gehören auf die Packliste, auch im Hochsommer. Für Kleinkinder empfehlen wir eine Trage.</p>
       <div class="highlight-box" style="margin-top: 24px;">
         <h3>Checkliste für Familien</h3>
         <ul style="line-height: 2; padding-left: 20px;">
@@ -1265,7 +1265,7 @@ window.contentBundle = {
           <li>Kein Essen und Trinken in der Höhle</li>
           <li>Fotografieren erlaubt (ohne Stativ)</li>
           <li>Letzter Einlass: 17:45 Uhr</li>
-          <li>Parkplatz: CHF 7/Tag, 8–10 Min. Fussweg zum Eingang</li>
+          <li>Parkplatz: CHF 7/Tag, 8-10 Min. Fussweg zum Eingang</li>
         </ul>
         <p style="margin-top: 12px; color: #C8D4D8; font-size: 14px;">Hunde sind an der Leine willkommen (Eintritt CHF 10).</p>
       </div>
@@ -1304,8 +1304,8 @@ window.contentBundle = {
     </div>
 
     <div class="highlight-box" style="margin-top: 24px;">
-      <h3>Kombi-Tickets -- so sparen Familien</h3>
-      <p><strong>BLS Schifffahrt + Höhle:</strong> 50 % Rabatt auf den Eintritt. Mit dem Dampfschiff über den Thunersee -- direkte Anlegestelle bei den Höhlen. Für Kinder ist die Schifffahrt schon ein Erlebnis für sich.</p>
+      <h3>Kombi-Tickets: So sparen Familien</h3>
+      <p><strong>BLS Schifffahrt + Höhle:</strong> 50 % Rabatt auf den Eintritt. Mit dem Dampfschiff über den Thunersee, direkte Anlegestelle bei den Höhlen. Für Kinder ist die Schifffahrt schon ein Erlebnis für sich.</p>
       <p style="margin-top: 8px;"><strong>SBB RailAway:</strong> 20 % Rabatt bei Anreise mit dem ÖV. <strong>Schulen:</strong> Schultageskarte CHF 15 + 20 % Eintrittsrabatt.</p>
     </div>
   </div>
@@ -1315,10 +1315,10 @@ window.contentBundle = {
 <section class="section section--light">
   <div class="container grid grid--2">
     <div class="feature-content">
-      <h2 class="section-title">Anreise -- schon der Weg ist ein Erlebnis</h2>
+      <h2 class="section-title">Anreise: Schon der Weg ist ein Erlebnis</h2>
       <p class="section-tagline">Drei Wege zu den Höhlen, alle familientauglich.</p>
-      <p><strong>Mit dem Schiff:</strong> Die schönste Anreise führt über den Thunersee. Das Dampfschiff Blüemlisalp und die Kursschiffe der BLS legen direkt bei den Höhlen an. Für Kinder ein Highlight -- und mit dem Kombi-Ticket sparen Sie 50 % auf den Höhleneintritt.</p>
-      <p style="margin-top: 12px;"><strong>Mit dem Auto:</strong> Nur 17 km von Thun, 30 km von Interlaken. Kostenpflichtiger Parkplatz (CHF 7/Tag) direkt unterhalb der Anlage. Von dort führt ein asphaltierter Fussweg in ca. 8–10 Minuten zum Eingang -- vorbei am eindrücklichen Beatus-Wasserfall.</p>
+      <p><strong>Mit dem Schiff:</strong> Die schönste Anreise führt über den Thunersee. Das Dampfschiff Blüemlisalp und die Kursschiffe der BLS legen direkt bei den Höhlen an. Für Kinder ein Highlight, und mit dem Kombi-Ticket sparen Sie 50 % auf den Höhleneintritt.</p>
+      <p style="margin-top: 12px;"><strong>Mit dem Auto:</strong> Nur 17 km von Thun, 30 km von Interlaken. Kostenpflichtiger Parkplatz (CHF 7/Tag) direkt unterhalb der Anlage. Von dort führt ein asphaltierter Fussweg in ca. 8-10 Minuten zum Eingang, vorbei am eindrücklichen Beatus-Wasserfall.</p>
       <p style="margin-top: 12px;"><strong>Mit dem ÖV:</strong> Bus ab Thun oder Interlaken bis Haltestelle «Beatushöhlen». Mit SBB RailAway 20 % Rabatt auf den Eintritt.</p>
     </div>
     <div class="feature-image">
@@ -1338,7 +1338,7 @@ window.contentBundle = {
         <img src="images/familien-partner-schifffahrt-thunersee.jpg" alt="Alt: Dampfschiff Blüemlisalp auf dem Thunersee | St. Beatus-Höhlen" class="card-image">
         <div class="card-body">
           <h3 class="card-title">Schifffahrt Thunersee</h3>
-          <p class="card-text">Mit dem Dampfschiff Blüemlisalp über den Thunersee -- direkte Anlegestelle bei den Höhlen. Kombi-Ticket mit 50 % Rabatt auf den Eintritt. Kinder lieben die Fahrt über den See mit Blick auf die Berge.</p>
+          <p class="card-text">Mit dem Dampfschiff Blüemlisalp über den Thunersee, direkte Anlegestelle bei den Höhlen. Kombi-Ticket mit 50 % Rabatt auf den Eintritt. Kinder lieben die Fahrt über den See mit Blick auf die Berge.</p>
         </div>
       </div>
 
@@ -1346,7 +1346,7 @@ window.contentBundle = {
         <img src="images/familien-partner-niederhorn-trottinett.jpg" alt="Alt: Trottinett-Abfahrt am Niederhorn | St. Beatus-Höhlen" class="card-image">
         <div class="card-body">
           <h3 class="card-title">Niederhorn</h3>
-          <p class="card-text">Gondelfahrt auf das Niederhorn mit Panoramablick auf Eiger, Mönch und Jungfrau. Im Sommer rasante Trottinett-Abfahrt, im Winter Schlitteln -- Adrenalin für die ganze Familie, nur wenige Minuten entfernt.</p>
+          <p class="card-text">Gondelfahrt auf das Niederhorn mit Panoramablick auf Eiger, Mönch und Jungfrau. Im Sommer rasante Trottinett-Abfahrt, im Winter Schlitteln: Adrenalin für die ganze Familie, nur wenige Minuten entfernt.</p>
         </div>
       </div>
 
@@ -1372,14 +1372,14 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Sind die St. Beatus-Höhlen für Kinder geeignet?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Ja, die St. Beatus-Höhlen sind eine der kinderfreundlichsten Höhlen der Schweiz. Der Rundgang ist gut ausgebaut, beleuchtet und beschildert. Kinder ab ca. 5–6 Jahren bewältigen den Weg gut. Zusätzlich gibt es den interaktiven <a href="/hoehlen/flimboweg">Flimboweg</a>, ein Höhlenmuseum zum Anfassen, einen Spielplatz mit Drachenrutschbahn und eine Feuerstelle -- ein komplettes Kinderprogramm für den ganzen Tag.</p>
+          <p itemprop="text">Ja, die St. Beatus-Höhlen sind eine der kinderfreundlichsten Höhlen der Schweiz. Der Rundgang ist gut ausgebaut, beleuchtet und beschildert. Kinder ab ca. 5-6 Jahren bewältigen den Weg gut. Zusätzlich gibt es den interaktiven <a href="/hoehlen/flimboweg">Flimboweg</a>, ein Höhlenmuseum zum Anfassen, einen Spielplatz mit Drachenrutschbahn und eine Feuerstelle. Ein komplettes Kinderprogramm für den ganzen Tag.</p>
         </div>
       </details>
 
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Was kostet der Eintritt für Familien?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Die Familienkarte kostet CHF 52 und umfasst max. 2 Erwachsene (Eltern oder Grosseltern) mit eigenen Kindern bzw. Enkeln von 6–16 Jahren. Einzeltickets: Erwachsene CHF 20, Kinder (6–16 J.) CHF 12. Im Preis inbegriffen sind der Höhlenrundgang, das Höhlenmuseum mit Audio-Guide und der Flimboweg. Mit dem BLS-Kombi-Ticket (Schifffahrt + Höhle) sparen Sie 50 % auf den Eintritt.</p>
+          <p itemprop="text">Die Familienkarte kostet CHF 52 und umfasst max. 2 Erwachsene (Eltern oder Grosseltern) mit eigenen Kindern bzw. Enkeln von 6-16 Jahren. Einzeltickets: Erwachsene CHF 20, Kinder (6-16 J.) CHF 12. Im Preis inbegriffen sind der Höhlenrundgang, das Höhlenmuseum mit Audio-Guide und der Flimboweg. Mit dem BLS-Kombi-Ticket (Schifffahrt + Höhle) sparen Sie 50 % auf den Eintritt.</p>
         </div>
       </details>
 
@@ -1393,14 +1393,14 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Was sollten Kinder für den Höhlenbesuch anziehen?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">In der Höhle herrschen ganzjährig 8–10 °C bei ca. 95 % Luftfeuchtigkeit. Warme Kleidung und rutschfestes Schuhwerk sind auch im Sommer nötig. Die Wege und Treppenstufen können feucht sein. Tipp: Eine leichte Fleecejacke reicht für die meisten Kinder aus.</p>
+          <p itemprop="text">In der Höhle herrschen ganzjährig 8-10 °C bei ca. 95 % Luftfeuchtigkeit. Warme Kleidung und rutschfestes Schuhwerk sind auch im Sommer nötig. Die Wege und Treppenstufen können feucht sein. Tipp: Eine leichte Fleecejacke reicht für die meisten Kinder aus.</p>
         </div>
       </details>
 
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Wie lange dauert der Familienausflug insgesamt?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Planen Sie mindestens einen halben Tag ein. Der Höhlenrundgang dauert ca. 60 Minuten, der Flimboweg ca. 60–90 Minuten. Dazu kommen Spielplatz, Museum und eine Pause im Restaurant oder an der Feuerstelle. Der Spaziergang vom Parkplatz zum Eingang dauert 8–10 Minuten. Für das volle Programm mit allem sind 3–5 Stunden ideal.</p>
+          <p itemprop="text">Planen Sie mindestens einen halben Tag ein. Der Höhlenrundgang dauert ca. 60 Minuten, der Flimboweg ca. 60-90 Minuten. Dazu kommen Spielplatz, Museum und eine Pause im Restaurant oder an der Feuerstelle. Der Spaziergang vom Parkplatz zum Eingang dauert 8-10 Minuten. Für das volle Programm mit allem sind 3-5 Stunden ideal.</p>
         </div>
       </details>
 
@@ -1414,21 +1414,21 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Kann man die Beatushöhlen bei Regen besuchen?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Ja, die Höhle ist eines der besten Schlechtwetter-Ausflugsziele im Berner Oberland. In der Tropfsteinhöhle herrschen konstante 8–10 °C -- unabhängig vom Wetter. Bei Regen zeigt sich der Wasserfall auf dem Aussengelände sogar besonders spektakulär. Auch Museum und Imbiss sind überdacht.</p>
+          <p itemprop="text">Ja, die Höhle ist eines der besten Schlechtwetter-Ausflugsziele im Berner Oberland. In der Tropfsteinhöhle herrschen konstante 8-10 °C, unabhängig vom Wetter. Bei Regen zeigt sich der Wasserfall auf dem Aussengelände sogar besonders spektakulär. Auch Museum und Imbiss sind überdacht.</p>
         </div>
       </details>
 
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Wie reise ich mit Kindern am besten an?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Besonders beliebt bei Familien: die Anreise per Schiff über den Thunersee -- direkte Anlegestelle bei den Höhlen, Kombi-Ticket mit 50 % Rabatt. Mit dem Auto: Parkplatz (CHF 7/Tag) unterhalb der Anlage, 8–10 Minuten Fussweg zum Eingang. Mit dem ÖV: Bus ab Thun oder Interlaken bis Haltestelle «Beatushöhlen», SBB RailAway mit 20 % Rabatt.</p>
+          <p itemprop="text">Besonders beliebt bei Familien: die Anreise per Schiff über den Thunersee mit direkter Anlegestelle bei den Höhlen und Kombi-Ticket mit 50 % Rabatt. Mit dem Auto: Parkplatz (CHF 7/Tag) unterhalb der Anlage, 8-10 Minuten Fussweg zum Eingang. Mit dem ÖV: Bus ab Thun oder Interlaken bis Haltestelle «Beatushöhlen», SBB RailAway mit 20 % Rabatt.</p>
         </div>
       </details>
 
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Sind die St. Beatus-Höhlen ganzjährig geöffnet?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Ja, die Höhlen sind ganzjährig geöffnet. Letzter Einlass ist um 17:45 Uhr. Die Temperatur in der Höhle ist konstant -- im Winter angenehm warm, im Sommer angenehm kühl. Ein Familienausflug, der zu jeder Jahreszeit passt.</p>
+          <p itemprop="text">Ja, die Höhlen sind ganzjährig geöffnet. Letzter Einlass ist um 17:45 Uhr. Die Temperatur in der Höhle ist konstant, im Winter angenehm warm, im Sommer angenehm kühl. Ein Familienausflug, der zu jeder Jahreszeit passt.</p>
         </div>
       </details>
 
@@ -1440,7 +1440,7 @@ window.contentBundle = {
 <section class="section section--dark">
   <div class="container container--narrow text-center">
     <h2 class="section-title">Familienausflug zu den Beatushöhlen planen</h2>
-    <p class="lead-text">Tropfsteinhöhle, Flimboweg, Museum und Spielplatz -- vier Erlebnisse, ein Ticket. Planen Sie Ihren Ausflug mit Kindern am Thunersee.</p>
+    <p class="lead-text">Tropfsteinhöhle, Flimboweg, Museum und Spielplatz. Vier Erlebnisse, ein Ticket. Planen Sie Ihren Ausflug mit Kindern am Thunersee.</p>
     <div style="margin-top: 24px;">
       <a href="/hoehlen/infocenter#tickets" class="btn-primary" style="margin-right: 12px;">Tickets buchen</a>
       <a href="/hoehlen/infocenter#anreise" class="btn-secondary">Anreise planen</a>
@@ -1673,14 +1673,14 @@ window.contentBundle = {
         <div class="card-body">
           <h3 class="card-title">Halbtag</h3>
           <p class="card-text">Geführte Höhlentour mit anschliessendem Apéro auf der Terrasse. Ideal für Teams, die ein kompaktes Erlebnis in der Natur suchen – mit Blick auf den Thunersee.</p>
-          <p style="margin-top: 8px; font-size: 0.875rem; color: #5A7A82;">ca. 2–3 Stunden · Thementour + Apéro</p>
+          <p style="margin-top: 8px; font-size: 0.875rem; color: #5A7A82;">ca. 2-3 Stunden · Thementour + Apéro</p>
         </div>
       </div>
       <div class="card">
         <div class="card-body">
           <h3 class="card-title">Ganztag</h3>
           <p class="card-text">Der volle Genuss: Vormittags Teambuilding mit Höhlentour, mittags Bankett-Menü im Restaurant, nachmittags freie Zeit auf dem Gelände oder eine zweite Aktivität.</p>
-          <p style="margin-top: 8px; font-size: 0.875rem; color: #5A7A82;">ca. 5–6 Stunden · Tour + Menü + Rahmenprogramm</p>
+          <p style="margin-top: 8px; font-size: 0.875rem; color: #5A7A82;">ca. 5-6 Stunden · Tour + Menü + Rahmenprogramm</p>
         </div>
       </div>
       <div class="card">
@@ -1742,7 +1742,7 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Wie weit im Voraus sollte man eine Firmenfeier buchen?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Wir empfehlen eine Reservation mindestens 4–6 Wochen im Voraus. Für Weihnachtsfeiern und Anlässe in der Hochsaison sollten Sie noch früher planen. Spontane Anfragen prüfen wir selbstverständlich auch – sprechen Sie uns einfach an.</p>
+          <p itemprop="text">Wir empfehlen eine Reservation mindestens 4-6 Wochen im Voraus. Für Weihnachtsfeiern und Anlässe in der Hochsaison sollten Sie noch früher planen. Spontane Anfragen prüfen wir selbstverständlich auch, sprechen Sie uns einfach an.</p>
         </div>
       </details>
 
@@ -1817,7 +1817,7 @@ window.contentBundle = {
       </div>
       <div class="fact-box">
         <span class="fact-icon" aria-hidden="true">⏱️</span>
-        <strong class="fact-value">60–90 Min.</strong>
+        <strong class="fact-value">60-90 Min.</strong>
         <span class="fact-label">je nach Verweildauer</span>
       </div>
       <div class="fact-box">
@@ -1986,14 +1986,14 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Wie lange dauert der Flimboweg?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Der Erlebnisweg dauert je nach Tempo und Verweildauer an den interaktiven Stationen 45–60 Minuten. Der Erlebnispfad liegt im Parkareal der St. Beatus-Höhlen zwischen Thun und Interlaken.</p>
+          <p itemprop="text">Der Erlebnisweg dauert je nach Tempo und Verweildauer an den interaktiven Stationen 45-60 Minuten. Der Erlebnispfad liegt im Parkareal der St. Beatus-Höhlen zwischen Thun und Interlaken.</p>
         </div>
       </details>
 
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Kostet der Flimboweg zusätzlich?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Nein, der Flimboweg ist im regulären Eintritt der St. Beatus-Höhlen inbegriffen. Erwachsene CHF 20, Kinder (6–16 J.) CHF 12, Familienkarte CHF 52.</p>
+          <p itemprop="text">Nein, der Flimboweg ist im regulären Eintritt der St. Beatus-Höhlen inbegriffen. Erwachsene CHF 20, Kinder (6-16 J.) CHF 12, Familienkarte CHF 52.</p>
         </div>
       </details>
 
@@ -2043,7 +2043,7 @@ window.contentBundle = {
 <section class="section section--light">
   <div class="container container--narrow text-center">
     <h2 class="section-title">Zwei Erlebnisse – ein winterlicher Ort</h2>
-    <p class="lead-text">Winter am Thunersee bedeutet bei den St. Beatus-Höhlen zweierlei: das <strong>Fondue am Fels</strong>, täglich während der Wintersaison in der Tannenwald-Grotte. Und das <strong>Höhlenraclette im Fels</strong> – ein exklusives Candlelight-Dinner an ausgewählten Freitagabenden. Beide Erlebnisse finden in der Grotte statt, aber jedes hat seinen ganz eigenen Charakter.</p>
+    <p class="lead-text">Winter am Thunersee bedeutet bei den St. Beatus-Höhlen zweierlei: das <strong>Fondue am Fels</strong>, täglich während der Wintersaison im geschützten Aussenbereich neben dem Restaurant. Und das <strong>Höhlenraclette im Fels</strong>, ein exklusives Candlelight-Dinner an ausgewählten Freitagabenden in der Grotte. Zwei Erlebnisse, jedes mit seinem ganz eigenen Charakter.</p>
   </div>
 </section>
 
@@ -2073,7 +2073,7 @@ window.contentBundle = {
       <p class="section-tagline">Exklusives Candlelight-Dinner an ausgewählten Freitagabenden.</p>
       <p>An ausgewählten Freitagabenden verwandeln wir die Grotte in ein Lichtermeer aus Kerzen. Im Schein unzähliger Flammen geniessen Sie Raclette à discrétion – so viel Sie mögen.</p>
       <p><strong>Im Preis inbegriffen:</strong> Glühwein oder Glühmost zum Empfang, Raclette à discrétion mit Weisswein, Tee und Mineral, Kaffee und Kleingebäck zum Abschluss. Als Souvenir nehmen Sie Ihr persönliches Kerzen-Racletteöfeli im Stoffbeutel mit nach Hause.</p>
-      <p><strong>Nächste Termine:</strong> Aktuelle Daten finden Sie im <a href="/events">Eventkalender</a> -- die Abende sind beliebt und oft frühzeitig ausverkauft.</p>
+      <p><strong>Nächste Termine:</strong> Aktuelle Daten finden Sie im <a href="/events">Eventkalender</a>. Die Abende sind beliebt und oft frühzeitig ausverkauft.</p>
       <p style="font-size: 0.875rem;">Hinweis: Für Kleinkinder nicht geeignet. Keine Hunde. Bei Schlechtwetter ist eine Absage möglich.</p>
     </div>
     <div class="feature-image">
@@ -2086,7 +2086,7 @@ window.contentBundle = {
 <section class="section section--dark">
   <div class="container">
     <h2 class="section-title">Zwei Winter-Erlebnisse auf einen Blick</h2>
-    <p class="section-tagline">Fondue und Raclette -- beide besonders, jedes auf seine Art.</p>
+    <p class="section-tagline">Fondue und Raclette: Beide besonders, jedes auf seine Art.</p>
     <div class="grid grid--2">
       <div class="card">
         <div class="card-body">
@@ -2097,7 +2097,7 @@ window.contentBundle = {
             <strong>Öffnungszeiten:</strong> Mo–Fr 11.30–16 Uhr, Sa 11.30–20 Uhr, So 12.30–16 Uhr<br>
             <strong>Preis:</strong> CHF 29 (Erw.) / CHF 19 (Kinder)<br>
             <strong>Reservation:</strong> Empfohlen, nicht zwingend<br>
-            <strong>Stimmung:</strong> Winterlicher Tannenwald in der Grotte
+            <strong>Stimmung:</strong> Winterlicher Tannenwald im geschützten Aussenbereich
           </p>
         </div>
       </div>
@@ -2123,7 +2123,7 @@ window.contentBundle = {
   <div class="container container--narrow">
     <div class="highlight-box">
       <h3>Fondue und Raclette für Gruppen</h3>
-      <p>Sie planen einen Firmenausflug, ein Vereinserlebnis oder eine Familienfeier? Das Höhlenraclette bei Kerzenlicht und das Fondue am Fels sind auch ausserhalb der regulären Termine buchbar – exklusiv für Ihre Gruppe.</p>
+      <p>Sie planen einen Firmenausflug, ein Vereinserlebnis oder eine Familienfeier? Das Höhlenraclette bei Kerzenlicht und das Fondue am Fels sind auch ausserhalb der regulären Termine buchbar, exklusiv für Ihre Gruppe.</p>
       <p style="margin-top: 12px;">Kontaktieren Sie unser Event-Team: <a href="mailto:events@beatushoehlen.ch">events@beatushoehlen.ch</a> · <a href="tel:+41338411643">+41 33 841 16 43</a></p>
     </div>
   </div>
@@ -2311,7 +2311,7 @@ window.contentBundle = {
         <img src="images/gruppen-kulinarik-brunch-fels.jpg" alt="Alt: Brunch-Buffet am Fels mit Blick auf den Thunersee | St. Beatus-Höhlen" class="card-image">
         <div class="card-body">
           <h3 class="card-title">Brunch am Fels</h3>
-          <p class="card-text">Ein reichhaltiger Brunch in einzigartiger Kulisse – direkt am Fels, mit Blick auf den Thunersee. Für Gruppen ab 15 Personen, Montag bis Samstag von 9.30 bis 12 Uhr. CHF 49 / 29 / gratis.</p>
+          <p class="card-text">Ein reichhaltiger Brunch in einzigartiger Kulisse, direkt am Fels, mit Blick auf den Thunersee. Für Gruppen ab 15 Personen, Montag bis Samstag von 9.30 bis 12 Uhr. CHF 49 (Erwachsene) / CHF 29 (Kinder 6-16 J.) / gratis (unter 6 J.).</p>
         </div>
       </article>
 
@@ -2399,7 +2399,7 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Ist die Höhle für ältere Personen geeignet?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Die Höhle ist gut ausgebaut und beleuchtet. Allerdings sind 297 Treppenstufen zu bewältigen, und der Weg vom Parkplatz zum Eingang ist steil (8–10 Minuten). Personen mit eingeschränkter Mobilität sollten dies berücksichtigen. In der Höhle herrschen 8–10 °C – warme Kleidung und festes Schuhwerk sind empfohlen.</p>
+          <p itemprop="text">Die Höhle ist gut ausgebaut und beleuchtet. Allerdings sind 297 Treppenstufen zu bewältigen, und der Weg vom Parkplatz zum Eingang ist steil (8-10 Minuten). Personen mit eingeschränkter Mobilität sollten dies berücksichtigen. In der Höhle herrschen 8-10 °C, warme Kleidung und festes Schuhwerk sind empfohlen.</p>
         </div>
       </details>
 
@@ -2589,7 +2589,7 @@ window.contentBundle = {
 <section class="section section--light">
   <div class="container container--narrow text-center">
     <h2 class="section-title">Kleine Stärkung, grosse Aussicht</h2>
-    <p class="lead-text">Direkt beim Höhleneingang erwartet Sie unser Imbiss mit Snacks und Getränken. Stärken Sie sich vor dem Rundgang durch die Höhle oder legen Sie danach eine wohlverdiente Pause ein -- mit Blick auf den Thunersee und den Wasserfall.</p>
+    <p class="lead-text">Direkt beim Höhleneingang erwartet Sie unser Imbiss mit Snacks und Getränken. Stärken Sie sich vor dem Rundgang durch die Höhle oder legen Sie danach eine wohlverdiente Pause ein, mit Blick auf den Thunersee und den Wasserfall.</p>
   </div>
 </section>
 
@@ -2597,7 +2597,7 @@ window.contentBundle = {
 <section class="section section--dark">
   <div class="container">
     <h2 class="section-title">Was es bei uns gibt</h2>
-    <p class="section-tagline">Für den kleinen Hunger zwischendurch -- schnell und unkompliziert.</p>
+    <p class="section-tagline">Für den kleinen Hunger zwischendurch. Schnell und unkompliziert.</p>
     <div class="grid grid--3">
       <div class="card">
         <div class="card-body">
@@ -2608,7 +2608,7 @@ window.contentBundle = {
       <div class="card">
         <div class="card-body">
           <h3 class="card-title">Getränke</h3>
-          <p class="card-text">Heisse und kalte Getränke – von Kaffee und Tee bis zu Erfrischungsgetränken. Perfekt zum Aufwärmen nach der Höhlentour bei 8–10 °C.</p>
+          <p class="card-text">Heisse und kalte Getränke, von Kaffee und Tee bis zu Erfrischungsgetränken. Perfekt zum Aufwärmen nach der Höhlentour bei 8-10 °C.</p>
         </div>
       </div>
       <div class="card">
@@ -2636,8 +2636,8 @@ window.contentBundle = {
         <p>Im Parkareal steht eine öffentliche Feuerstelle zur freien Verfügung – direkt neben dem Spielplatz mit Drachenrutschbahn. Ideal für Familien, die ihre eigene Verpflegung mitbringen.</p>
       </div>
       <div class="highlight-box" style="margin-top: 16px;">
-        <h3>Restaurant-Tipp</h3>
-        <p>Für ein ausgiebiges Essen mit Seeblick: das Restaurant «Stein & Sein» mit regionaler Küche liegt nur wenige Gehminuten entfernt.</p>
+        <h3>Restaurant nebenan</h3>
+        <p>Für ein ausgiebiges Essen mit Seeblick: Das Restaurant «Stein & Sein» mit regionaler Küche liegt direkt nebenan.</p>
       </div>
     </div>
   </div>
@@ -2731,7 +2731,7 @@ window.contentBundle = {
   </div>
   <div class="hero-content">
     <h1 class="hero-title headline-hero">Infocenter –<br>Öffnungszeiten,<br>Preise & Anreise</h1>
-    <p class="hero-subtitle">Alles Wichtige für Ihren Besuch in den St. Beatus-Höhlen -- auf einen Blick.</p>
+    <p class="hero-subtitle">Alles Wichtige für Ihren Besuch in den St. Beatus-Höhlen – auf einen Blick.</p>
     <div class="hero-cta">
       <a href="#tickets" class="btn-primary">Tickets & Preise</a>
       <a href="#anreise" class="btn-secondary">Anreise planen</a>
@@ -2743,7 +2743,7 @@ window.contentBundle = {
 <section class="section section--light">
   <div class="container container--narrow text-center">
     <h2 class="section-title">Gut geplant ist halb erlebt</h2>
-    <p class="lead-text">Damit Ihr Besuch in den St. Beatus-Höhlen reibungslos verläuft, finden Sie hier alle wichtigen Informationen: Öffnungszeiten, Eintrittspreise, Kombi-Angebote und Tipps zur Anreise. So können Sie sich ganz auf das Erlebnis konzentrieren -- wir kümmern uns um den Rest.</p>
+    <p class="lead-text">Damit Ihr Besuch in den St. Beatus-Höhlen reibungslos verläuft, finden Sie hier alle wichtigen Informationen: Öffnungszeiten, Eintrittspreise, Kombi-Angebote und Tipps zur Anreise. So können Sie sich ganz auf das Erlebnis konzentrieren – wir kümmern uns um den Rest.</p>
   </div>
 </section>
 
@@ -2753,9 +2753,9 @@ window.contentBundle = {
     <div class="feature-content-row">
       <div class="feature-content">
         <h2 class="section-title">Wasserfall am Höhleneingang</h2>
-        <p class="lead-text">Das Erlebnis beginnt schon vor der Höhle: Der Beatus-Wasserfall stürzt direkt neben dem Eingang in die Tiefe -- gespeist vom unterirdischen Höhlenbach, der das gesamte Höhlensystem durchfliesst.</p>
-        <p>Auf dem Fussweg vom Parkplatz zum Höhleneingang überqueren Sie auf Brücken und Stegen den tosenden Wasserfall. Bei Regen oder Schneeschmelze wird das Naturschauspiel besonders eindrücklich -- die Wassermassen schwellen an und der Doppelwasserfall zeigt seine volle Kraft.</p>
-        <p>Der Aufstieg vom Parkplatz zum Höhleneingang dauert ca. <strong>8--10 Minuten</strong> und führt über einen gut ausgebauten, asphaltierten Weg. Festes Schuhwerk empfehlen wir dennoch, da der Weg in der Nähe des Wasserfalls feucht sein kann.</p>
+        <p class="lead-text">Das Erlebnis beginnt schon vor der Höhle: Der Beatus-Wasserfall stürzt direkt neben dem Eingang in die Tiefe, gespeist vom unterirdischen Höhlenbach, der das gesamte Höhlensystem durchfliesst.</p>
+        <p>Auf dem Fussweg vom Parkplatz zum Höhleneingang überqueren Sie auf Brücken und Stegen den tosenden Wasserfall. Bei Regen oder Schneeschmelze wird das Naturschauspiel besonders eindrücklich: Die Wassermassen schwellen an und der Doppelwasserfall zeigt seine volle Kraft.</p>
+        <p>Der Aufstieg vom Parkplatz zum Höhleneingang dauert ca. <strong>8-10 Minuten</strong> und führt über einen gut ausgebauten, asphaltierten Weg. Festes Schuhwerk empfehlen wir dennoch, da der Weg in der Nähe des Wasserfalls feucht sein kann.</p>
       </div>
       <div class="feature-image">
         <img src="images/infocenter-wasserfall-aufstieg.jpg" alt="Alt: Beatus-Wasserfall am Aufstieg zum Höhleneingang | St. Beatus-Höhlen">
@@ -2768,35 +2768,35 @@ window.contentBundle = {
 <section class="section section--light">
   <div class="container">
     <h2 class="section-title">Öffnungszeiten</h2>
-    <p class="section-tagline">Ganzjährig geöffnet -- mit angepassten Zeiten je nach Saison.</p>
+    <p class="section-tagline">Ganzjährig geöffnet, mit angepassten Zeiten je nach Saison.</p>
 
     <div class="grid grid--2">
       <div class="highlight-box">
-        <h3>Wintersaison (22.11.2025 -- 27.03.2026)</h3>
+        <h3>Wintersaison (22.11.2025 - 27.03.2026)</h3>
         <p><strong>Höhlen</strong></p>
-        <p>Mo--Fr: 10:00--17:00 Uhr (letzter Einlass 16:15)<br>
-        Sa: 10:00--18:30 Uhr (letzter Einlass 17:45)<br>
-        So: 10:00--17:00 Uhr (letzter Einlass 16:15)</p>
+        <p>Mo-Fr: 10:00-17:00 Uhr (letzter Einlass 16:15)<br>
+        Sa: 10:00-18:30 Uhr (letzter Einlass 17:45)<br>
+        So: 10:00-17:00 Uhr (letzter Einlass 16:15)</p>
         <p style="margin-top: 12px;"><strong>Restaurant</strong></p>
-        <p>Mo--Fr: 10:00--17:00 Uhr<br>
-        Sa: 10:00--21:00 Uhr<br>
-        So: 9:30--17:00 Uhr</p>
+        <p>Mo-Fr: 10:00-17:00 Uhr<br>
+        Sa: 10:00-21:00 Uhr<br>
+        So: 9:30-17:00 Uhr</p>
         <p style="margin-top: 12px;"><strong>Museum</strong></p>
-        <p>Täglich: 12:00--17:30 Uhr</p>
+        <p>Täglich: 12:00-17:30 Uhr</p>
       </div>
 
       <div class="highlight-box">
-        <h3>Sommersaison (28.03.2026 -- 08.11.2026)</h3>
+        <h3>Sommersaison (28.03.2026 - 08.11.2026)</h3>
         <p><strong>Höhlen</strong></p>
-        <p>Mo--Do: 9:00--18:00 Uhr (letzter Einlass 17:15)<br>
-        Fr + Sa: 9:00--21:00 Uhr (letzter Einlass 20:15)<br>
-        So: 9:00--18:00 Uhr (letzter Einlass 17:15)</p>
+        <p>Mo-Do: 9:00-18:00 Uhr (letzter Einlass 17:15)<br>
+        Fr + Sa: 9:00-21:00 Uhr (letzter Einlass 20:15)<br>
+        So: 9:00-18:00 Uhr (letzter Einlass 17:15)</p>
         <p style="margin-top: 12px;"><strong>Restaurant</strong></p>
-        <p>Mo--Do: 9:00--18:00 Uhr<br>
-        Fr + Sa: 9:00--22:00 Uhr<br>
-        So: 9:00--18:00 Uhr</p>
+        <p>Mo-Do: 9:00-18:00 Uhr<br>
+        Fr + Sa: 9:00-22:00 Uhr<br>
+        So: 9:00-18:00 Uhr</p>
         <p style="margin-top: 12px;"><strong>Museum</strong></p>
-        <p>Täglich: 10:00--18:00 Uhr</p>
+        <p>Täglich: 10:00-18:00 Uhr</p>
       </div>
     </div>
   </div>
@@ -2813,18 +2813,18 @@ window.contentBundle = {
         <h3>Höhlen + Museum</h3>
         <table class="info-table" style="width: 100%; margin-top: 8px;">
           <tr><td>Erwachsene</td><td style="text-align: right;"><strong>CHF 20</strong></td></tr>
-          <tr><td>Kinder (6--16 Jahre)</td><td style="text-align: right;"><strong>CHF 12</strong></td></tr>
+          <tr><td>Kinder (6-16 Jahre)</td><td style="text-align: right;"><strong>CHF 12</strong></td></tr>
           <tr><td>Familienkarte*</td><td style="text-align: right;"><strong>CHF 52</strong></td></tr>
           <tr><td>Hunde</td><td style="text-align: right;"><strong>CHF 10</strong></td></tr>
         </table>
-        <p style="margin-top: 8px; font-size: 0.875rem; color: #5A7A82;">*Max. 2 Erwachsene + eigene Kinder (6--16 J.)</p>
+        <p style="margin-top: 8px; font-size: 0.875rem; color: #5A7A82;">*Max. 2 Erwachsene + eigene Kinder (6-16 J.)</p>
       </div>
 
       <div class="highlight-box">
         <h3>Nur Museum</h3>
         <table class="info-table" style="width: 100%; margin-top: 8px;">
           <tr><td>Erwachsene</td><td style="text-align: right;"><strong>CHF 6</strong></td></tr>
-          <tr><td>Kinder (6--16 Jahre)</td><td style="text-align: right;"><strong>CHF 3</strong></td></tr>
+          <tr><td>Kinder (6-16 Jahre)</td><td style="text-align: right;"><strong>CHF 3</strong></td></tr>
         </table>
         <p style="margin-top: 12px; font-size: 0.875rem; color: #5A7A82;">Der Audio-Guide (DE/EN/FR) ist im Museumseintritt inbegriffen.</p>
       </div>
@@ -2841,7 +2841,7 @@ window.contentBundle = {
 <section class="section section--light">
   <div class="container">
     <h2 class="section-title">Kombi-Angebote</h2>
-    <p class="section-tagline">Sparen Sie bei Anreise und Eintritt -- mit unseren Partnern.</p>
+    <p class="section-tagline">Sparen Sie bei Anreise und Eintritt.mit unseren Partnern.</p>
     <div class="grid grid--3">
       <div class="card">
         <img src="images/infocenter-kombi-bls-schiff.jpg" alt="Alt: BLS Schifffahrt-Kombi mit Höhleneintritt am Thunersee | St. Beatus-Höhlen" class="card-image">
@@ -2861,7 +2861,7 @@ window.contentBundle = {
         <img src="images/infocenter-kombi-schulen.jpg" alt="Alt: Schulklassen-Kombi mit Rabatt für Höhlenbesuch | St. Beatus-Höhlen" class="card-image">
         <div class="card-body">
           <h3 class="card-title">Schulen-Kombi</h3>
-          <p class="card-text">Schulklassen profitieren von einem Spezialpreis von CHF 15 pro Person und erhalten zusätzlich 20% Rabatt. Eine lebendige Ergänzung zum Unterricht -- ob Geologie, Geschichte oder Naturkunde.</p>
+          <p class="card-text">Schulklassen profitieren von einem Spezialpreis von CHF 15 pro Person und erhalten zusätzlich 20% Rabatt. Eine lebendige Ergänzung zum Unterricht.ob Geologie, Geschichte oder Naturkunde.</p>
         </div>
       </div>
     </div>
@@ -2872,7 +2872,7 @@ window.contentBundle = {
 <section id="anreise" class="section section--dark">
   <div class="container">
     <h2 class="section-title">Anreise zu den St. Beatus-Höhlen</h2>
-    <p class="section-tagline">Gut erreichbar mit ÖV, Schiff, Auto oder zu Fuss -- direkt am Thunersee.</p>
+    <p class="section-tagline">Gut erreichbar mit ÖV, Schiff, Auto oder zu Fuss.direkt am Thunersee.</p>
     <div class="grid grid--3">
       <div class="info-card">
         <span class="info-icon">&#128652;</span>
@@ -2882,7 +2882,7 @@ window.contentBundle = {
       <div class="info-card">
         <span class="info-icon">&#128674;</span>
         <h4 class="info-title">Schiff (BLS)</h4>
-        <p class="info-detail">Station «Beatushöhlen-Sundlauenen» am See. 20--25 Min. Fussmarsch bergauf. Kombinierbar mit dem BLS-Kombi-Angebot.</p>
+        <p class="info-detail">Station «Beatushöhlen-Sundlauenen» am See. 20-25 Min. Fussmarsch bergauf. Kombinierbar mit dem BLS-Kombi-Angebot.</p>
       </div>
       <div class="info-card">
         <span class="info-icon">&#128690;</span>
@@ -2894,12 +2894,12 @@ window.contentBundle = {
       <div class="info-card">
         <span class="info-icon">&#128664;</span>
         <h4 class="info-title">Auto / Parkplatz</h4>
-        <p class="info-detail">Kostenpflichtige Parkplätze direkt unterhalb der Höhlen. Tagesticket CHF 7. Gehzeit zum Eingang: 8--10 Min.</p>
+        <p class="info-detail">Kostenpflichtige Parkplätze direkt unterhalb der Höhlen. Tagesticket CHF 7. Gehzeit zum Eingang: 8-10 Min.</p>
       </div>
       <div class="info-card">
         <span class="info-icon">&#129406;</span>
         <h4 class="info-title">Zu Fuss / Jakobsweg</h4>
-        <p class="info-detail">Ab Merligen ca. 75--90 Min., ab Beatenbucht ca. 60--70 Min. Die Höhlen liegen direkt am Pilgerweg Via Jacobi.</p>
+        <p class="info-detail">Ab Merligen ca. 75-90 Min., ab Beatenbucht ca. 60-70 Min. Die Höhlen liegen direkt am Pilgerweg Via Jacobi.</p>
       </div>
       <div class="info-card">
         <span class="info-icon">&#128205;</span>
@@ -2915,8 +2915,8 @@ window.contentBundle = {
   <div class="container">
     <div class="feature-content-row">
       <div class="feature-content">
-        <h2 class="section-title">Parkplatz bei den Beatushöhlen</h2>
-        <p class="lead-text">Kostenpflichtige Parkplätze stehen direkt unterhalb der Höhlen zur Verfügung -- nur wenige Gehminuten vom Eingang entfernt.</p>
+        <h2 class="section-title">Parkplätze bei den Beatushöhlen</h2>
+        <p class="lead-text">Zwei kostenpflichtige Parkplätze stehen zur Verfügung: der untere Parkplatz 1 und der obere Parkplatz 2, direkt beim Museum.</p>
 
         <div class="highlight-box" style="margin-top: 20px;">
           <h3>Parkgebühren</h3>
@@ -2925,10 +2925,15 @@ window.contentBundle = {
           </table>
         </div>
 
-        <p style="margin-top: 16px;"><strong>Gehzeiten ab Parkplatz:</strong></p>
+        <p style="margin-top: 16px;"><strong>Ab Parkplatz 1 (unterer Parkplatz):</strong></p>
         <ul style="margin-top: 8px;">
-          <li>Museum & Restaurant: <strong>1--2 Minuten</strong></li>
-          <li>Höhleneingang: <strong>8--10 Minuten</strong> (asphaltierter Fussweg bergauf, am Wasserfall vorbei)</li>
+          <li>Museum: ca. <strong>10 Minuten</strong></li>
+          <li>Restaurant & Höhleneingang: ca. <strong>15 Minuten</strong></li>
+        </ul>
+        <p style="margin-top: 16px;"><strong>Ab Parkplatz 2 (oberer Parkplatz, beim Museum):</strong></p>
+        <ul style="margin-top: 8px;">
+          <li>Museum: ca. <strong>1 Minute</strong></li>
+          <li>Restaurant & Höhleneingang: ca. <strong>15 Minuten</strong></li>
         </ul>
         <p style="margin-top: 12px; color: #5A7A82; font-size: 0.875rem;">Tipp: In der Hochsaison und an Wochenenden kann der Parkplatz rasch voll werden. Wir empfehlen eine Anreise mit dem ÖV oder frühzeitiges Eintreffen.</p>
       </div>
@@ -2943,33 +2948,33 @@ window.contentBundle = {
 <section class="section section--dark">
   <div class="container">
     <h2 class="section-title">Wanderungen rund um die Höhlen</h2>
-    <p class="section-tagline">Verbinden Sie Ihren Höhlenbesuch mit einer Wanderung am Thunersee -- für ein ganztägiges Naturerlebnis.</p>
+    <p class="section-tagline">Verbinden Sie Ihren Höhlenbesuch mit einer Wanderung am Thunersee.für ein ganztägiges Naturerlebnis.</p>
 
     <div class="grid grid--3">
       <div class="card">
         <div class="card-body">
           <h3 class="card-title">Flimboweg (Familien)</h3>
-          <p class="card-text">Der interaktive Erlebnisweg führt auf 1,3 km vom Höhleneingang durch den Wald. Rätselposten, Feuerstellen und Hörgeschichten begleiten Kinder und Familien. Dauer: ca. 1--1,5 Stunden.</p>
+          <p class="card-text">Der interaktive Erlebnisweg führt auf 1,3 km vom Höhleneingang durch den Wald. Rätselposten, Feuerstellen und Hörgeschichten begleiten Kinder und Familien. Dauer: ca. 1-1,5 Stunden.</p>
           <a href="/hoehlen/flimboweg" class="card-link" style="margin-top: 12px; display: inline-block;">Flimboweg entdecken →</a>
         </div>
       </div>
       <div class="card">
         <div class="card-body">
           <h3 class="card-title">Jakobsweg-Etappe</h3>
-          <p class="card-text">Die St. Beatus-Höhlen liegen direkt am historischen Pilgerweg Via Jacobi. Die Etappe Merligen -- Beatushöhlen -- Interlaken bietet Seepanoramen, Waldwege und das Höhlenerlebnis als Zwischenstopp.</p>
+          <p class="card-text">Die St. Beatus-Höhlen liegen direkt am historischen Pilgerweg Via Jacobi. Die Etappe Merligen.Beatushöhlen.Interlaken bietet Seepanoramen, Waldwege und das Höhlenerlebnis als Zwischenstopp.</p>
         </div>
       </div>
       <div class="card">
         <div class="card-body">
           <h3 class="card-title">Uferweg Thunersee</h3>
-          <p class="card-text">Der Uferweg von Beatenbucht zu den Höhlen führt direkt am See entlang. Dauer: ca. 60--70 Minuten. Eine genussvolle Wanderung mit Blick auf Eiger, Mönch und Jungfrau bei klarer Sicht.</p>
+          <p class="card-text">Der Uferweg von Beatenbucht zu den Höhlen führt direkt am See entlang. Dauer: ca. 60-70 Minuten. Eine genussvolle Wanderung mit Blick auf Eiger, Mönch und Jungfrau bei klarer Sicht.</p>
         </div>
       </div>
     </div>
 
     <div class="highlight-box" style="margin-top: 24px;">
       <h3>Tipp: Naturpark Umgebung</h3>
-      <p>Die St. Beatus-Höhlen liegen eingebettet in eine intakte Naturlandschaft am Thunersee. Die Umgebung lädt zum Verweilen ein -- mit Grillstellen, Aussichtspunkten und dem idyllischen Waldsee. Planen Sie genügend Zeit ein, um auch die Umgebung zu geniessen.</p>
+      <p>Die St. Beatus-Höhlen liegen eingebettet in eine intakte Naturlandschaft am Thunersee. Die Umgebung lädt zum Verweilen ein.mit Grillstellen, Aussichtspunkten und dem idyllischen Waldsee. Planen Sie genügend Zeit ein, um auch die Umgebung zu geniessen.</p>
       <a href="/hoehlen/erlebniswelt" class="card-link" style="margin-top: 8px; display: inline-block;">Naturpark & Umgebung →</a>
     </div>
   </div>
@@ -2979,7 +2984,7 @@ window.contentBundle = {
 <section class="section section--light">
   <div class="container">
     <h2 class="section-title">Wetter am Thunersee</h2>
-    <p class="section-tagline">Die Höhlen sind bei jedem Wetter ein Erlebnis -- bei Regen sogar besonders eindrücklich.</p>
+    <p class="section-tagline">Die Höhlen sind bei jedem Wetter ein Erlebnis.bei Regen sogar besonders eindrücklich.</p>
 
     <div class="grid grid--2">
       <div class="highlight-box">
@@ -2994,7 +2999,7 @@ window.contentBundle = {
 
       <div class="feature-content">
         <h3>Bei jedem Wetter ein Erlebnis</h3>
-        <p>In der Höhle herrschen ganzjährig konstante <strong>8--10 °C</strong> bei rund 95% Luftfeuchtigkeit -- völlig unabhängig vom Wetter draussen. Die St. Beatus-Höhlen sind deshalb die perfekte Schlechtwetter-Alternative und ein kühler Rückzugsort an heissen Sommertagen.</p>
+        <p>In der Höhle herrschen ganzjährig konstante <strong>8-10 °C</strong> bei rund 95% Luftfeuchtigkeit.völlig unabhängig vom Wetter draussen. Die St. Beatus-Höhlen sind deshalb die perfekte Schlechtwetter-Alternative und ein kühler Rückzugsort an heissen Sommertagen.</p>
         <p style="margin-top: 12px;"><strong>Bei Regen:</strong> Der Beatus-Wasserfall wird besonders eindrücklich. Die Wassermassen schwellen an und das Naturschauspiel am Höhleneingang ist spektakulär. Regenjacke und festes Schuhwerk für den Aufstieg empfohlen.</p>
         <p style="margin-top: 12px;"><strong>Bei Sonnenschein:</strong> Geniessen Sie die Panoramaterrasse des Restaurants mit Blick auf den Thunersee und die Berner Alpen. Kombination Höhle + Naturpark + Restaurant für einen perfekten Ausflugstag.</p>
       </div>
@@ -3019,7 +3024,7 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Wie ist das Klima in der Höhle?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">In der Höhle herrschen ganzjährig konstante 8--10 °C bei einer Luftfeuchtigkeit von ca. 95%. Wir empfehlen warme Kleidung und rutschfestes Schuhwerk, da die Wege und Treppenstufen feucht sein können.</p>
+          <p itemprop="text">In der Höhle herrschen ganzjährig konstante 8-10 °C bei einer Luftfeuchtigkeit von ca. 95%. Wir empfehlen warme Kleidung und rutschfestes Schuhwerk, da die Wege und Treppenstufen feucht sein können.</p>
         </div>
       </details>
 
@@ -3033,14 +3038,14 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Wo kann ich parkieren und was kostet es?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Kostenpflichtige Parkplätze befinden sich direkt unterhalb der Höhlen. Das Tagesticket kostet CHF 7 (max. 24 Stunden). Vom Parkplatz erreichen Sie das Museum in 1--2 Minuten und den Höhleneingang in 8--10 Minuten zu Fuss. In der Hochsaison empfehlen wir frühes Eintreffen oder die Anreise mit dem ÖV.</p>
+          <p itemprop="text">Kostenpflichtige Parkplätze befinden sich direkt unterhalb der Höhlen. Das Tagesticket kostet CHF 7 (max. 24 Stunden). Vom Parkplatz erreichen Sie das Museum in 1-2 Minuten und den Höhleneingang in 8-10 Minuten zu Fuss. In der Hochsaison empfehlen wir frühes Eintreffen oder die Anreise mit dem ÖV.</p>
         </div>
       </details>
 
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Kann ich die Höhlen auch bei Regen besuchen?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Ja, die Höhlen sind bei jedem Wetter geöffnet. In der Höhle ist es trocken und konstant 8--10 °C. Bei Regen ist der Beatus-Wasserfall am Eingang besonders eindrücklich. Für den Aufstieg empfehlen wir eine Regenjacke und festes Schuhwerk.</p>
+          <p itemprop="text">Ja, die Höhlen sind bei jedem Wetter geöffnet. In der Höhle ist es trocken und konstant 8-10 °C. Bei Regen ist der Beatus-Wasserfall am Eingang besonders eindrücklich. Für den Aufstieg empfehlen wir eine Regenjacke und festes Schuhwerk.</p>
         </div>
       </details>
 
@@ -3061,7 +3066,7 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">In welchen Sprachen ist die Höhlentour beschildert?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Die Informationstafeln entlang des Rundgangs sind in Deutsch und Englisch verfasst. Im Museum steht zusätzlich ein Audio-Guide in Deutsch, Englisch und Französisch zur Verfügung -- im Eintrittspreis inbegriffen.</p>
+          <p itemprop="text">Die Informationstafeln entlang des Rundgangs sind in Deutsch und Englisch verfasst. Im Museum steht zusätzlich ein Audio-Guide in Deutsch, Englisch und Französisch zur Verfügung.im Eintrittspreis inbegriffen.</p>
         </div>
       </details>
 
@@ -3075,7 +3080,7 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Gibt es Gutscheine für die St. Beatus-Höhlen?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Ja, Gutscheine sind für alle Angebote erhältlich -- ob Höhleneintritt, Museumsbesuch, Restaurant oder Events. Den Betrag können Sie frei wählen. Gutscheine erhalten Sie direkt über unsere Website oder vor Ort an der Kasse.</p>
+          <p itemprop="text">Ja, Gutscheine sind für alle Angebote erhältlich.ob Höhleneintritt, Museumsbesuch, Restaurant oder Events. Den Betrag können Sie frei wählen. Gutscheine erhalten Sie direkt über unsere Website oder vor Ort an der Kasse.</p>
         </div>
       </details>
 
@@ -3093,12 +3098,12 @@ window.contentBundle = {
       <p style="margin-top: 12px;"><strong>Telefon:</strong> <a href="tel:+41338411643">+41 33 841 16 43</a><br>
       <strong>E-Mail:</strong> <a href="mailto:info@beatushoehlen.ch">info@beatushoehlen.ch</a><br>
       <strong>Events:</strong> <a href="mailto:events@beatushoehlen.ch">events@beatushoehlen.ch</a></p>
-      <p style="margin-top: 12px; color: #5A7A82;">Wir freuen uns auf Ihre Anfrage -- ob für individuelle Besuche, Gruppenreservationen oder Event-Buchungen.</p>
+      <p style="margin-top: 12px; color: #5A7A82;">Wir freuen uns auf Ihre Anfrage.ob für individuelle Besuche, Gruppenreservationen oder Event-Buchungen.</p>
     </div>
     <div class="feature-content">
       <h2 class="section-title">Gutscheine</h2>
       <p>Ein Besuch in den St. Beatus-Höhlen ist ein Geschenk, das in Erinnerung bleibt. Unsere Gutscheine sind flexibel einlösbar für Höhleneintritt, Museum, Restaurant und alle Events.</p>
-      <p style="margin-top: 12px;">Wählen Sie Ihren Wunschbetrag und überraschen Sie Ihre Liebsten -- ob zum Geburtstag, zu Weihnachten oder einfach so.</p>
+      <p style="margin-top: 12px;">Wählen Sie Ihren Wunschbetrag und überraschen Sie Ihre Liebsten.ob zum Geburtstag, zu Weihnachten oder einfach so.</p>
       <a href="/hoehlen/gutscheine" class="btn-primary" style="margin-top: 16px;">Gutschein bestellen</a>
     </div>
   </div>
@@ -3108,7 +3113,7 @@ window.contentBundle = {
 <section class="section section--dark">
   <div class="container container--narrow text-center">
     <h2 class="section-title">Planen Sie Ihren Besuch</h2>
-    <p class="lead-text">Alle Informationen auf einen Blick -- damit Sie sich ganz auf das Erlebnis in den St. Beatus-Höhlen konzentrieren können. Wir freuen uns auf Sie.</p>
+    <p class="lead-text">Alle Informationen auf einen Blick.damit Sie sich ganz auf das Erlebnis in den St. Beatus-Höhlen konzentrieren können. Wir freuen uns auf Sie.</p>
     <div style="margin-top: 24px;">
       <a href="https://beatushoehlen.ch/tickets" class="btn-primary" style="margin-right: 12px;">Tickets online kaufen</a>
       <a href="/hoehlen/erlebniswelt" class="btn-secondary">Höhlenerlebnis entdecken</a>
@@ -3575,9 +3580,9 @@ window.contentBundle = {
       <h2 class="section-title">Wandern am Thunersee – Ihre Wege zu den Höhlen</h2>
       <p class="section-tagline">Zu Fuss ankommen und dabei das Berner Oberland von seiner schönsten Seite erleben.</p>
       <p>Die St. Beatus-Höhlen sind ein beliebtes Ausflugsziel für Wanderungen in der Region Bern. Mehrere Routen führen durch die Natur am Thunersee direkt zum Höhleneingang – jede mit eigenem Charakter und Panorama.</p>
-      <p style="margin-top: 12px;"><strong>Von Merligen:</strong> 75–90 Minuten Wanderung durch Wald und entlang des Seeufers zum Höhleneingang. Ein ruhiger Weg mit Aussicht auf den Thunersee.</p>
-      <p style="margin-top: 12px;"><strong>Ab Schiffsstation Beatenbucht:</strong> Über den Jakobsweg erreichen Sie die Höhlen in 60–70 Minuten. Unterwegs passieren Sie die Standseilbahn nach Beatenberg – eine Abkürzung für den Rückweg.</p>
-      <p style="margin-top: 12px;"><strong>Ab BLS Schiffsstation Sundlauenen:</strong> Ein steiler, aber lohnender Aufstieg von 20–25 Minuten führt Sie hinauf zum Höhleneingang.</p>
+      <p style="margin-top: 12px;"><strong>Von Merligen:</strong> 75-90 Minuten Wanderung durch Wald und entlang des Seeufers zum Höhleneingang. Ein ruhiger Weg mit Aussicht auf den Thunersee.</p>
+      <p style="margin-top: 12px;"><strong>Ab Schiffsstation Beatenbucht:</strong> Über den Jakobsweg erreichen Sie die Höhlen in 60-70 Minuten. Unterwegs passieren Sie die Standseilbahn nach Beatenberg, eine Abkürzung für den Rückweg.</p>
+      <p style="margin-top: 12px;"><strong>Ab BLS Schiffsstation Sundlauenen:</strong> Ein steiler, aber lohnender Aufstieg von 20-25 Minuten führt Sie hinauf zum Höhleneingang.</p>
     </div>
   </div>
 </section>
@@ -3608,7 +3613,7 @@ window.contentBundle = {
       <h2 class="section-title">Direkt am Jakobsweg</h2>
       <p class="section-tagline">Eine der ältesten Pilgerstätten der Schweiz – seit Jahrhunderten auf dem Weg.</p>
       <p>Die St. Beatus-Höhlen liegen direkt am Jakobsweg, dem berühmten Pilgerweg nach Santiago de Compostela. Schon im Mittelalter war die Höhle des Heiligen Beatus ein Ziel für Pilgerinnen und Pilger. Heute verbinden Wandernde den spirituellen Weg mit einem Besuch der Tropfsteinhöhle und des Naturparks.</p>
-      <p style="margin-top: 12px;">Ab der Schiffsstation Beatenbucht folgen Sie dem Jakobsweg 60–70 Minuten bergwärts. Der Weg führt durch Wald und an Aussichtspunkten vorbei, bevor sich der Blick auf den Wasserfall und den Höhleneingang öffnet. Eine Etappe, die Geschichte und Natur auf besondere Weise verbindet.</p>
+      <p style="margin-top: 12px;">Ab der Schiffsstation Beatenbucht folgen Sie dem Jakobsweg 60-70 Minuten bergwärts. Der Weg führt durch Wald und an Aussichtspunkten vorbei, bevor sich der Blick auf den Wasserfall und den Höhleneingang öffnet. Eine Etappe, die Geschichte und Natur auf besondere Weise verbindet.</p>
     </div>
   </div>
 </section>
@@ -3669,7 +3674,7 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Wie lange dauert die Wanderung von Merligen zu den Höhlen?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Die Wanderung von Merligen zum Höhleneingang dauert 75–90 Minuten. Der Weg führt durch Wald und entlang des Thunersees. Alternativ erreichen Sie die Höhlen ab Schiffsstation Beatenbucht via Jakobsweg in 60–70 Minuten oder ab BLS Schiffsstation Sundlauenen in 20–25 Minuten.</p>
+          <p itemprop="text">Die Wanderung von Merligen zum Höhleneingang dauert 75-90 Minuten. Der Weg führt durch Wald und entlang des Thunersees. Alternativ erreichen Sie die Höhlen ab Schiffsstation Beatenbucht via Jakobsweg in 60-70 Minuten oder ab BLS Schiffsstation Sundlauenen in 20-25 Minuten.</p>
         </div>
       </details>
 
@@ -3683,7 +3688,7 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Liegen die St. Beatus-Höhlen am Jakobsweg?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Ja, die Höhlen liegen direkt am Jakobsweg, dem Pilgerweg nach Santiago de Compostela. Ab der Schiffsstation Beatenbucht folgen Sie dem Jakobsweg bergwärts und erreichen die Höhlen in 60–70 Minuten. Die Höhle des Heiligen Beatus war seit dem Mittelalter eine Pilgerstätte.</p>
+          <p itemprop="text">Ja, die Höhlen liegen direkt am Jakobsweg, dem Pilgerweg nach Santiago de Compostela. Ab der Schiffsstation Beatenbucht folgen Sie dem Jakobsweg bergwärts und erreichen die Höhlen in 60-70 Minuten. Die Höhle des Heiligen Beatus war seit dem Mittelalter eine Pilgerstätte.</p>
         </div>
       </details>
 
@@ -3950,7 +3955,7 @@ window.contentBundle = {
       <ul style="line-height: 2.2; padding-left: 20px; margin-top: 16px;">
         <li><strong>Zentrale Lage:</strong> Zwischen Interlaken und Thun, direkt am Thunersee – einfach erreichbar für Reisecars</li>
         <li><strong>Busparkplätze:</strong> Ausreichend Parkfläche für Reisecars vorhanden</li>
-        <li><strong>Ganzjahres-Attraktion:</strong> Die Höhle ist wetterunabhängig, ganzjährig 8–10 °C</li>
+        <li><strong>Ganzjahres-Attraktion:</strong> Die Höhle ist wetterunabhängig, ganzjährig 8-10 °C</li>
         <li><strong>Alles an einem Ort:</strong> Höhle, Restaurant, Museum, Park – kein Standortwechsel nötig</li>
         <li><strong>Flexible Zeiten:</strong> Touren und Restaurant auf Ihre Ankunftszeiten abgestimmt</li>
         <li><strong>Mehrsprachig:</strong> Führungen in Deutsch und Englisch, Audio-Guide auch in Französisch</li>
@@ -4027,7 +4032,7 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Gibt es Parkplätze für Reisecars?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Ja, es stehen ausreichend Busparkplätze direkt beim Eingangsbereich zur Verfügung. Die Zufahrt für Reisecars ist gut ausgebaut. Vom Parkplatz zum Höhleneingang sind es 8–10 Minuten Fussweg. Bitte beachten Sie: Der Weg zum Eingang ist steil und nicht rollstuhlgängig.</p>
+          <p itemprop="text">Ja, es stehen ausreichend Busparkplätze direkt beim Eingangsbereich zur Verfügung. Die Zufahrt für Reisecars ist gut ausgebaut. Vom Parkplatz zum Höhleneingang sind es 8-10 Minuten Fussweg. Bitte beachten Sie: Der Weg zum Eingang ist steil und nicht rollstuhlgängig.</p>
         </div>
       </details>
 
@@ -4098,8 +4103,8 @@ window.contentBundle = {
       </div>
       <div class="card">
         <div class="card-body">
-          <h3 class="card-title">Panorama-Terrasse</h3>
-          <p class="card-text">75 Plätze im Freien mit freiem Blick auf den Thunersee und die Berner Alpen. An sonnigen Tagen der schönste Tisch weit und breit.</p>
+          <h3 class="card-title">Terrasse mit Aussicht</h3>
+          <p class="card-text">75 Plätze im Freien mit Blick auf den Thunersee und die Berner Alpen. An sonnigen Tagen der schönste Tisch weit und breit.</p>
         </div>
       </div>
     </div>
@@ -4324,7 +4329,7 @@ window.contentBundle = {
           <h3 class="card-title">Kurz & Präzis</h3>
           <p style="font-size: 28px; font-weight: 700; color: var(--color-primary-teal); margin: 12px 0;">CHF 16 <span style="font-size: 16px; font-weight: 400;">/ Schüler</span></p>
           <p class="card-text">Lehrpersonen: CHF 26<br>Min. 20 Personen (2 Lehrer + 18 Schüler)<br>Mindestpreis: CHF 340</p>
-          <p style="margin-top: 8px; font-size: 0.875rem; color: var(--color-text-muted);">Schüler 6–16 Jahre · ca. 1 Stunde</p>
+          <p style="margin-top: 8px; font-size: 0.875rem; color: var(--color-text-muted);">Schüler 6-16 Jahre · ca. 1 Stunde</p>
         </div>
       </div>
       <div class="card" style="text-align: center;">
@@ -4420,14 +4425,14 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Was müssen die Schülerinnen und Schüler mitbringen?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">In der Höhle herrschen ganzjährig 8–10 °C bei hoher Luftfeuchtigkeit. Warme Kleidung und gutes Schuhwerk sind Pflicht – auch im Sommer. Der Weg zum Eingang ist steil und in der Höhle sind 297 Treppenstufen zu bewältigen. Essen und Trinken sind in der Höhle nicht gestattet. Für das Picknick steht eine Feuerstelle im Park zur Verfügung.</p>
+          <p itemprop="text">In der Höhle herrschen ganzjährig 8-10 °C bei hoher Luftfeuchtigkeit. Warme Kleidung und gutes Schuhwerk sind Pflicht – auch im Sommer. Der Weg zum Eingang ist steil und in der Höhle sind 297 Treppenstufen zu bewältigen. Essen und Trinken sind in der Höhle nicht gestattet. Für das Picknick steht eine Feuerstelle im Park zur Verfügung.</p>
         </div>
       </details>
 
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Wie lange dauert der Ausflug mit der Schulklasse?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Planen Sie mindestens einen halben Tag ein. Die Tour «Kurz & Präzis» dauert ca. 1 Stunde, die «Schnitzel & Jagd» ca. 2 Stunden. Dazu kommen Museum, <a href="/hoehlen/flimboweg">Flimboweg</a> und eine Pause an der Feuerstelle. Vom Parkplatz zum Höhleneingang sind es 8–10 Minuten Fussweg. Ein Ganztags-Programm mit allen Angeboten ist problemlos möglich.</p>
+          <p itemprop="text">Planen Sie mindestens einen halben Tag ein. Die Tour «Kurz & Präzis» dauert ca. 1 Stunde, die «Schnitzel & Jagd» ca. 2 Stunden. Dazu kommen Museum, <a href="/hoehlen/flimboweg">Flimboweg</a> und eine Pause an der Feuerstelle. Vom Parkplatz zum Höhleneingang sind es 8-10 Minuten Fussweg. Ein Ganztags-Programm mit allen Angeboten ist problemlos möglich.</p>
         </div>
       </details>
 
@@ -4566,7 +4571,7 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Wie ist die Anreise zum Seminarort?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Die St. Beatus-Höhlen liegen nur 17 km von Thun entfernt am Thunersee, mitten im Berner Oberland. Die Anreise ist mit dem Auto, dem öffentlichen Verkehr oder per Schiff möglich. Kostenpflichtige Parkplätze (CHF 7/Tag) befinden sich direkt unterhalb der Anlage. Von dort erreichen Sie das Restaurant und den Seminarraum in ca. 1–2 Minuten zu Fuss. Auf Wunsch senden wir Ihnen detaillierte Anreiseinformationen zu.</p>
+          <p itemprop="text">Die St. Beatus-Höhlen liegen nur 17 km von Thun entfernt am Thunersee, mitten im Berner Oberland. Die Anreise ist mit dem Auto, dem öffentlichen Verkehr oder per Schiff möglich. Kostenpflichtige Parkplätze (CHF 7/Tag) befinden sich direkt unterhalb der Anlage. Von dort erreichen Sie das Restaurant und den Seminarraum in ca. 1-2 Minuten zu Fuss. Auf Wunsch senden wir Ihnen detaillierte Anreiseinformationen zu.</p>
         </div>
       </details>
 
@@ -4613,7 +4618,7 @@ window.contentBundle = {
       <div class="feature-content">
         <h2 class="section-title">Brunch im Felsenrestaurant</h2>
         <p class="lead-text">Kein Hotel-Frühstückssaal, keine Konferenzraum-Atmosphäre – unser Sonntagsbrunch findet im Restaurant Stein & Sein statt, eingebettet in die Felswand der St. Beatus-Höhlen.</p>
-        <p>Naturstein und warmes Holz prägen den Innenraum. Die bodentiefen Fenster geben den Blick frei auf den Thunersee und die Berner Alpen. Bei schönem Wetter wird die Panoramaterrasse zum schönsten Frühstücksplatz der Region – mit freier Sicht bis zum Niesen und zur Jungfrau.</p>
+        <p>Naturstein und warmes Holz prägen den Innenraum. Die grossen Fenster geben den Blick frei auf den Thunersee und die Berner Alpen. Bei schönem Wetter wird die Panoramaterrasse zum schönsten Frühstücksplatz der Region – mit freier Sicht bis zum Niesen und zur Jungfrau.</p>
         <p style="margin-top: 12px;"><strong>75 Plätze innen</strong> im stimmungsvollen Felsenrestaurant, <strong>75 Plätze auf der Terrasse</strong> mit Bergpanorama. Bei Sonnenschein empfehlen wir: früh reservieren – die Terrassenplätze sind heiss begehrt.</p>
       </div>
       <div class="feature-image">
@@ -4665,11 +4670,11 @@ window.contentBundle = {
       <p class="section-tagline">Jeden Sonntag von 9.30 bis 12.00 Uhr</p>
       <table class="info-table" style="width: 100%; margin-top: 12px;">
         <tr><td>Erwachsene</td><td style="text-align: right;"><strong>CHF 49</strong></td></tr>
-        <tr><td>Kinder (6–16 Jahre)</td><td style="text-align: right;"><strong>CHF 29</strong></td></tr>
+        <tr><td>Kinder (6-16 Jahre)</td><td style="text-align: right;"><strong>CHF 29</strong></td></tr>
         <tr><td>Kinder unter 6 Jahren</td><td style="text-align: right;"><strong>gratis</strong></td></tr>
         <tr><td>Familien-Paket*</td><td style="text-align: right;"><strong>CHF 139</strong></td></tr>
       </table>
-      <p style="margin-top: 8px; font-size: 0.875rem; color: rgba(255,255,255,0.6);">*Eltern + eigene Kinder (6–16 Jahre)</p>
+      <p style="margin-top: 8px; font-size: 0.875rem; color: rgba(255,255,255,0.6);">*Eltern + eigene Kinder (6-16 Jahre)</p>
       <p style="margin-top: 16px;">Unser Brunch gehört zu den preiswertesten am Thunersee – mit einer Kulisse, die ihresgleichen sucht. Frühzeitig reservieren lohnt sich.</p>
       <div style="margin-top: 24px;">
         <a href="/gastronomie/restaurant" class="btn-primary">Brunch reservieren</a>
@@ -4691,7 +4696,7 @@ window.contentBundle = {
       <div class="feature-content">
         <h2 class="section-title">Erst brunchen, dann staunen</h2>
         <p class="lead-text">Direkt nach dem späten Frühstück wartet ein weiteres Erlebnis: Die Tropfsteinhöhle der St. Beatus-Höhlen liegt nur wenige Gehminuten vom Restaurant entfernt.</p>
-        <p>Ein Kilometer unterirdischer Rundgang, Stalaktiten und Stalagmiten, ein tosender Höhlenbach – und das alles bei konstanten 8–10 °C. Der perfekte Sonntagsausflug zwischen Thun und Interlaken, der Genuss und Abenteuer verbindet.</p>
+        <p>Ein Kilometer unterirdischer Rundgang, Stalaktiten und Stalagmiten, ein tosender Höhlenbach – und das alles bei konstanten 8-10 °C. Der perfekte Sonntagsausflug zwischen Thun und Interlaken, der Genuss und Abenteuer verbindet.</p>
         <p style="margin-top: 12px;">Fragen Sie beim Brunch nach unserem <strong>Kombi-Angebot Brunch + Höhle</strong> – zum attraktiven Vorzugspreis.</p>
         <div style="margin-top: 20px;">
           <a href="/hoehlen/erlebniswelt" class="btn-primary" style="margin-right: 12px;">Höhlenerlebnis entdecken</a>
@@ -4710,7 +4715,7 @@ window.contentBundle = {
       <p>Ab 15 Personen bieten wir unseren Brunch auch von Montag bis Samstag an (9.30–12 Uhr). Ideal für Firmenausflüge, Vereinsanlässe oder Familienfeiern in der Region Interlaken, Thun und im Berner Oberland.</p>
       <table class="info-table" style="width: 100%; margin-top: 12px;">
         <tr><td>Erwachsene</td><td style="text-align: right;"><strong>CHF 49</strong></td></tr>
-        <tr><td>Kinder (6–16 Jahre)</td><td style="text-align: right;"><strong>CHF 29</strong></td></tr>
+        <tr><td>Kinder (6-16 Jahre)</td><td style="text-align: right;"><strong>CHF 29</strong></td></tr>
         <tr><td>Kinder unter 6 Jahren</td><td style="text-align: right;"><strong>gratis</strong></td></tr>
       </table>
       <p style="margin-top: 12px;">Kontaktieren Sie uns für Ihre Gruppenreservation: <a href="mailto:info@beatushoehlen.ch">info@beatushoehlen.ch</a> oder <a href="tel:+41338411643">+41 33 841 16 43</a>.</p>
@@ -4785,7 +4790,7 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Gibt es den Brunch auch für Gruppen unter der Woche?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Ja, ab 15 Personen bieten wir den Brunch auch von Montag bis Samstag an (9.30–12 Uhr). Die Preise sind identisch: CHF 49 für Erwachsene, CHF 29 für Kinder (6–16 Jahre). Ideal für Firmenanlässe, <a href="/vereine">Vereinsausflüge</a> oder Familienfeiern in der Region Interlaken und Thun. Kontaktieren Sie uns unter <a href="mailto:info@beatushoehlen.ch">info@beatushoehlen.ch</a>.</p>
+          <p itemprop="text">Ja, ab 15 Personen bieten wir den Brunch auch von Montag bis Samstag an (9.30–12 Uhr). Die Preise sind identisch: CHF 49 für Erwachsene, CHF 29 für Kinder (6-16 Jahre). Ideal für Firmenanlässe, <a href="/vereine">Vereinsausflüge</a> oder Familienfeiern in der Region Interlaken und Thun. Kontaktieren Sie uns unter <a href="mailto:info@beatushoehlen.ch">info@beatushoehlen.ch</a>.</p>
         </div>
       </details>
 
@@ -4955,7 +4960,7 @@ window.contentBundle = {
       </div>
       <div class="fact-box">
         <span class="fact-icon" aria-hidden="true">🌡️</span>
-        <strong class="fact-value">8–10 °C</strong>
+        <strong class="fact-value">8-10 °C</strong>
         <span class="fact-label">ganzjährig konstant</span>
       </div>
       <div class="fact-box">
@@ -4996,14 +5001,14 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Was kostet der Eintritt in die Tropfsteinhöhle?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Erwachsene zahlen CHF 20, Kinder (6–16 Jahre) CHF 12 und die Familienkarte kostet CHF 52. Der Eintritt ins Höhlenmuseum mit Audio-Guide (verfügbar in Deutsch, Englisch und Französisch) ist im Preis inbegriffen. Hunde sind für CHF 10 willkommen.</p>
+          <p itemprop="text">Erwachsene zahlen CHF 20, Kinder (6-16 Jahre) CHF 12 und die Familienkarte kostet CHF 52. Der Eintritt ins Höhlenmuseum mit Audio-Guide (verfügbar in Deutsch, Englisch und Französisch) ist im Preis inbegriffen. Hunde sind für CHF 10 willkommen.</p>
         </div>
       </details>
 
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Sind die St. Beatus-Höhlen ganzjährig geöffnet?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Ja, die Höhlen sind ganzjährig geöffnet. In der Tropfsteinhöhle herrschen konstante 8–10 °C – unabhängig von der Jahreszeit. Warme Kleidung und gutes Schuhwerk werden empfohlen. Letzter Einlass ist um 17:45 Uhr.</p>
+          <p itemprop="text">Ja, die Höhlen sind ganzjährig geöffnet. In der Tropfsteinhöhle herrschen konstante 8-10 °C – unabhängig von der Jahreszeit. Warme Kleidung und gutes Schuhwerk werden empfohlen. Letzter Einlass ist um 17:45 Uhr.</p>
         </div>
       </details>
 
@@ -5074,7 +5079,7 @@ window.contentBundle = {
       </div>
       <div class="fact-box">
         <span class="fact-icon" aria-hidden="true">⏱️</span>
-        <strong class="fact-value">1–2 Std.</strong>
+        <strong class="fact-value">1-2 Std.</strong>
         <span class="fact-label">je nach Tour</span>
       </div>
       <div class="fact-box">
@@ -5110,9 +5115,9 @@ window.contentBundle = {
           <li>Dauer: ca. 1 Stunde</li>
           <li>Sprachen: Deutsch und Englisch</li>
           <li>Gruppengrösse: ab 20 Personen</li>
-          <li>Erwachsene CHF 30 · Kinder (6–16 J.) CHF 22</li>
+          <li>Erwachsene CHF 30 · Kinder (6-16 J.) CHF 22</li>
         </ul>
-        <p style="margin-top: 12px; color: #5A7A82; font-size: 0.875rem;">Mindestpreis CHF 600. Startzeiten auf Anfrage (ausgenommen 12–14 Uhr).</p>
+        <p style="margin-top: 12px; color: #5A7A82; font-size: 0.875rem;">Mindestpreis CHF 600. Startzeiten auf Anfrage (ausgenommen 12-14 Uhr).</p>
       </div>
     </div>
 
@@ -5254,7 +5259,7 @@ window.contentBundle = {
       <div class="card">
         <div class="card-body">
           <h3 class="card-title">Gut zu wissen</h3>
-          <p class="card-text">In der Höhle herrschen 8–10 °C. Warme Kleidung und rutschfestes Schuhwerk empfohlen. Bei der kulinarischen Tour sind Getränke und Häppchen inklusive.</p>
+          <p class="card-text">In der Höhle herrschen 8-10 °C. Warme Kleidung und rutschfestes Schuhwerk empfohlen. Bei der kulinarischen Tour sind Getränke und Häppchen inklusive.</p>
         </div>
       </div>
     </div>
@@ -5321,7 +5326,7 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Sind die Thementouren für Schulklassen geeignet?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Ja, besonders die Touren «Kurz & Präzis» und «Schnitzel & Jagd» eignen sich für einen <a href="/schulen">Schulausflug</a>. Es gelten spezielle Schulpreise: Schüler (6–16 J.) ab CHF 16, Begleitpersonen ab CHF 26. Mindestgrösse: 20 Personen (2 Lehrpersonen / 18 Schüler).</p>
+          <p itemprop="text">Ja, besonders die Touren «Kurz & Präzis» und «Schnitzel & Jagd» eignen sich für einen <a href="/schulen">Schulausflug</a>. Es gelten spezielle Schulpreise: Schüler (6-16 J.) ab CHF 16, Begleitpersonen ab CHF 26. Mindestgrösse: 20 Personen (2 Lehrpersonen / 18 Schüler).</p>
         </div>
       </details>
 
@@ -5418,7 +5423,7 @@ window.contentBundle = {
       <h2 class="section-title">Flexibel für Ihren Verein</h2>
       <p class="section-tagline">Wir passen uns Ihren Wünschen an – nicht umgekehrt</p>
       <p>Jeder Verein ist anders, und genau so planen wir Ihren Ausflug. Ob kleine Wandergruppe oder grosser Turnverein, ob Halbtages-Programm oder Ganztages-Event – wir stellen ein Angebot zusammen, das zu Ihrem Verein passt.</p>
-      <p>Das Restaurant mit 75 + 75 Sitzplätzen steht auch abends zur Verfügung. Exklusive Nutzung ist möglich. Für Brunch-Gruppen ab 15 Personen öffnen wir Montag bis Samstag bereits ab 9.30 Uhr (CHF 49 / 29 / gratis).</p>
+      <p>Das Restaurant mit 75 + 75 Sitzplätzen steht auch abends zur Verfügung. Exklusive Nutzung ist möglich. Für Brunch-Gruppen ab 15 Personen öffnen wir Montag bis Samstag bereits ab 9.30 Uhr. Die Preise: CHF 49 (Erwachsene) / CHF 29 (Kinder 6-16 J.) / gratis (unter 6 J.).</p>
       <p style="margin-top: 16px;"><strong>Es lohnt sich, uns zu kontaktieren.</strong> Gemeinsam finden wir die perfekte Kombination für Ihren Vereinsausflug am Thunersee.</p>
     </div>
     <div class="feature-image">
@@ -5502,7 +5507,7 @@ window.contentBundle = {
       <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Welche kulinarischen Optionen gibt es für Vereine?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Die Auswahl ist vielfältig: Bankettmenüs, Brunch am Fels (für Gruppen ab 15 Personen, Mo–Sa ab 9.30 Uhr, CHF 49/29/gratis), Apéro-Varianten, Mittag- oder Abendessen sowie das exklusive Höhlenraclette in der Grotte. Detaillierte Menüvorschläge senden wir Ihnen gerne auf Anfrage zu.</p>
+          <p itemprop="text">Die Auswahl ist vielfältig: Bankettmenüs, Brunch am Fels (für Gruppen ab 15 Personen, Mo-Sa ab 9.30 Uhr), Apéro-Varianten, Mittag- oder Abendessen sowie das exklusive Höhlenraclette in der Grotte. Detaillierte Menüvorschläge senden wir Ihnen gerne auf Anfrage zu.</p>
         </div>
       </details>
 
